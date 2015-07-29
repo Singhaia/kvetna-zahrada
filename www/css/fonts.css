@@ -1,0 +1,25 @@
+/* face font */
+
+/* headings */
+@font-face{ 
+    font-family: 'playfair';
+    src: url('../fonts/playfair/playfairdisplay-regular-webfont.eot');
+    src: url('../fonts/playfair/playfairdisplay-regular-webfont.eot?iefix') format('eot'),
+         url('../fonts/playfair/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('../fonts/playfair/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('../fonts/playfair/playfairdisplay-regular-webfont.svg#playfair') format('svg');
+}
+
+h1, h2, h3 { font-family: 'playfair'; font-weight: normal; }
+
+/* paragraphs */
+@font-face{ 
+    font-family: 'opensans';
+    src: url('../fonts/opensans/opensans-regular.eot');
+    src: url('../fonts/opensans/opensans-regular.eot?iefix') format('eot'),
+         url('../fonts/opensans/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans/opensans-regular.svg#opensans') format('svg');
+}
+
+p, span, a, div { font-family: 'opensans'; font-weight: normal; }

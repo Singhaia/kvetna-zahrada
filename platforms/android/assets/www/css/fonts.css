@@ -1,0 +1,12 @@
+/* face font */
+@font-face{ 
+    font-family: 'playfair';
+    src: url('../fonts/playfair/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/playfair/PlayfairDisplay-Regular.eot?iefix') format('eot'),
+         url('../fonts/playfair/PlayfairDisplay-Regular.woff') format('woff'),
+         url('../fonts/playfair/PlayfairDisplay-Regular.ttf') format('truetype'),
+         url('../fonts/playfair/PlayfairDisplay-Regular.svg#playfair') format('svg');
+}
+
+
+h1, h2, h3 { font-family: 'playfair'; font-weight: normal; }

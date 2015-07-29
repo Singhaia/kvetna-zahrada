@@ -1,0 +1,104 @@
+/* Empty. Add your own CSS if you like */
+
+body { 
+	font-size: 16px; 
+}
+
+h1 { 
+	color: #2b903e; 
+}
+
+p { 
+	color: #657368; 
+	font-size: 1em; 
+	line-height: 1.8; 
+	text-align: center; 
+}
+
+.sidebar {
+	padding: 3em;
+	width: 20%; 
+	height: 100%; 
+	float: left; 
+}
+.content { 
+	padding: 3em;
+	width: 80%; 
+	min-height: 100%; 
+	float: left;
+	background-color: #fff;
+}
+
+.pane {
+	background: #dee4df url(../img/common.jpg) no-repeat left top; 
+	background-size: cover; 
+}
+
+.pane.homepage { 
+	background: #dee4df url(../img/homepage.jpg) no-repeat left top;
+}
+
+.pane.homepage h1 { 
+	font-size: 6em; 
+	text-align: center; 
+}
+
+.welcome-text { 
+	margin: 0 auto; 
+	width: 50%; 
+}
+
+.scroll { 
+	height: 100%; 
+}
+
+.homepage .content { width: 100%; background-color: transparent; }
+
+.main-menu-container { 
+	overflow: hidden; 
+	position: absolute; 
+	left: 0; 
+	bottom: 3em; 
+	width: 100%; 
+	text-align: center; 
+}
+
+.main-menu-container .link { 
+	display: inline-block; 
+	margin: 0 0 0 20%; 
+}
+
+.main-menu-container .link:first-child {
+	margin-left: 0;
+}
+
+.main-menu-container .link a {
+	display: block;
+	width: 184px;
+	height: 184px;
+	background-color: #fff; 
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	border-radius: 50%; 
+}
+
+.link.map a {
+	background-image: url(../img/icons/map.png);
+}
+
+.link.sights a {
+	background-image: url(../img/icons/sights.png);
+}
+
+.link.info a {
+	background-image: url(../img/icons/info.png);
+}
+
+.section-image { 
+	width: 16em;
+	height: 16em;
+	border-radius: 50%;
+	overflow: hidden;
+}
+

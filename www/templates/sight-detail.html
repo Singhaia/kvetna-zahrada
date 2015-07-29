@@ -1,0 +1,33 @@
+<ion-content>
+	<div class="sidebar">
+		<h1>Květná zahrada</h1>
+		
+		<div class="nav-bar">
+			<a href="#/" class="button back">Úvod</a>
+			<a href="#/pamatky" class="button back">Zpět</a>
+		</div>
+	</div>
+
+	<div class="content">
+		
+		<div class="controls">
+			<a href="#/pamatky/{{prevSight.id}}">{{prevSight.name}}</a>
+			<a href="#/pamatky/{{nextSight.id}}">{{nextSight.name}}</a>
+		</div>
+		
+		<div class="section-image">
+			<img ng-src="{{sight.sectionImage}}" />
+		</div>
+		
+		<h2>{{sight.name}}</h2>
+		
+		<div class="media">
+			<a href="#">Galerie</a>
+			<a href="#">Video</a>
+		</div>
+		
+		<div class="body">
+			<p ng-repeat="paragraph in sight.body">{{paragraph}}</p>
+		</div>
+	</div>
+</ion-content>
