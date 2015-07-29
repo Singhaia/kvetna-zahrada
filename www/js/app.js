@@ -33,7 +33,7 @@ ionicApp.config(function($stateProvider, $urlRouterProvider) {
 		.state('info', {
 			url: '/informace',
 			templateUrl: 'templates/information.html',
-			//controller: 'InfopageCtrl'
+			controller: 'InfoCtrl'
 		});
 	
 	$urlRouterProvider.otherwise('/');
@@ -132,6 +132,13 @@ ionicApp.controller('SightCtrl', function($scope, $stateParams, sightsFactory) {
 	sightsFactory.findNext($stateParams.sightid, function(sightNext) {
 		$scope.nextSight = sightNext;
 		console.log($scope.nextSight);
+	});
+});
+
+
+ionicApp.controller('InfoCtrl', function($scope, $http) {
+	$http.get('data/information.json').success(function(data) {
+		$scope.info = data;
 	});
 });
 
