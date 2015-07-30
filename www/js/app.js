@@ -138,8 +138,20 @@ ionicApp.controller('SightCtrl', function($scope, $stateParams, sightsFactory) {
 
 ionicApp.controller('InfoCtrl', function($scope, $http) {
 	$http.get('data/information.json').success(function(data) {
-		$scope.info = data;
+		$scope.groups = data;
 	});
+	
+	$scope.toggleGroup = function(group) {
+		if($scope.isGroupShown(group)) {
+			$scope.showGroup = null;
+		} else {
+			$scope.showGroup = group;
+		}
+	};
+	
+	$scope.isGroupShown = function(group) {
+		return $scope.showGroup === group;
+	};
 });
 
 
