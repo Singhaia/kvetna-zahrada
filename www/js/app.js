@@ -6,8 +6,9 @@
 var ionicApp = angular.module('ionicApp', ['ionic']);
 
 
-
-ionicApp.config(function($stateProvider, $urlRouterProvider) {
+ionicApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+	
+	$ionicConfigProvider.views.transition('none');
 	
 	$stateProvider
 		.state('home', {
