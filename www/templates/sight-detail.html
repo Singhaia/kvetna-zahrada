@@ -10,8 +10,8 @@
 <ion-content>
 	<div class="content">
 		<div class="controls">
-			<a href="#/pamatky/{{prevSight.id}}">{{prevSight.name}}</a>
-			<a href="#/pamatky/{{nextSight.id}}">{{nextSight.name}}</a>
+			<a ng-if="prevSight.id" href="#/pamatky/{{prevSight.id}}">{{prevSight.name}}</a>	
+			<a ng-if="nextSight.id"  href="#/pamatky/{{nextSight.id}}">{{nextSight.name}}</a>
 		</div>
 		
 		<div class="section-image">

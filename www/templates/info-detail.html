@@ -1,0 +1,23 @@
+<div class="sidebar">
+	<h1>Květná zahrada</h1>
+	
+	<div class="nav-bar">
+		<a href="#/mapa-pamatek" class="button back">Mapa</a>
+		<a href="#/informace" class="button back">Zpět</a>
+	</div>
+</div>
+
+<ion-content>
+	<div class="content">
+		<div class="controls">
+			<a ng-if="prevInfo.id" href="#/informace/{{prevInfo.id}}">{{prevInfo.name}}</a>
+			<a ng-if="nextInfo.id"  href="#/informace/{{nextInfo.id}}">{{nextInfo.name}}</a>
+		</div>
+		
+		<h2>{{info.name}}</h2>
+		
+		<div class="body">
+			<p ng-repeat="paragraph in info.body">{{paragraph}}</p>
+		</div>
+	</div>
+</ion-content>

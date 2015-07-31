@@ -1,0 +1,14 @@
+<div class="sidebar">
+	<h1>Květná zahrada</h1>
+	
+	<div class="nav-bar">
+		<a href="#/" class="button back">Úvod</a>
+		<a href="#/pamatky" class="button back">Zpět</a>
+	</div>
+</div>
+
+<ion-content>
+	<div class="content">
+		<a ng-repeat="item in info" href="#/informace/{{item.id}}">{{item.name}}</a>
+	</div>
+</ion-content>

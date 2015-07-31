@@ -21,20 +21,25 @@ ionicApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvide
 			templateUrl: 'templates/garden-map.html',
 			controller: 'MapCtrl'
 		})
-		.state('pamatky-list', {
+		.state('sights-list', {
 			url: '/pamatky',
 			templateUrl: 'templates/sights-list.html',
 			controller: 'SightsCtrl'
 		})
-		.state('pamatky-detail', {
+		.state('sight-detail', {
 			url: '/pamatky/:sightid',
 			templateUrl: 'templates/sight-detail.html',
 			controller: 'SightCtrl'
 		})
-		.state('info', {
+		.state('info-list', {
 			url: '/informace',
-			templateUrl: 'templates/information.html',
-			controller: 'InfoCtrl'
+			templateUrl: 'templates/info-list.html',
+			controller: 'InfoListCtrl'
+		})
+		.state('info-detail', {
+			url: '/informace/:infoid',
+			templateUrl: 'templates/info-detail.html',
+			controller: 'InfoDetailCtrl'
 		});
 	
 	$urlRouterProvider.otherwise('/');
@@ -44,13 +49,14 @@ ionicApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvide
 
 
 ionicApp.factory('sightsFactory', function($http) {
+	
 	function getSights(callback){
 		$http({
 			method: 'GET',
 			url: 'data/sights.json',
 			cache: true
 		}).success(callback);
-	}
+	};
 	
 	return {
 		list: getSights,
@@ -90,34 +96,72 @@ ionicApp.factory('sightsFactory', function($http) {
 			});
 		}
 	};
+	
+});
+
+
+
+ionicApp.factory('infoFactory', function($http) {
+	
+	function getInfo(callback) {
+		$http({
+			method: 'GET',
+			url: 'data/information.json',
+			cache: true
+		}).success(callback);
+	};
+	
+	return {
+		list: getInfo,
+		find: function(id, callback) {
+			getInfo(function(data) {
+				var info = data.filter(function(entry) {
+					return entry.id == id;
+				})[0];
+				
+				callback(info);
+			});
+		}
+	};
+	
 });
 
 
 
 ionicApp.controller('HomepageCtrl', function($scope, $http) {
+	
 	$http.get('data/homepage.json').success(function(data) {
 		$scope.homepage = data[0];
 	}).error(function() {
 		console.log('error fetching data from json');
 	});
+	
 });
+
 
 
 ionicApp.controller('MapCtrl', function($scope, sightsFactory) {
+	
 	sightsFactory.list(function(sights) {
 		$scope.sights = sights;
 	});
+	
 });
+
 
 
 ionicApp.controller('SightsCtrl', function($scope, sightsFactory) {
+	
 	sightsFactory.list(function(sights) {
 		$scope.sights = sights;
 	});
+	
 });
 
 
+
 ionicApp.controller('SightCtrl', function($scope, $stateParams, sightsFactory) {
+	
 	sightsFactory.find($stateParams.sightid, function(sight) {
 		console.log($stateParams.sightid);
 		$scope.sight = sight;
@@ -134,26 +178,29 @@ ionicApp.controller('SightCtrl', function($scope, $stateParams, sightsFactory) {
 		$scope.nextSight = sightNext;
 		console.log($scope.nextSight);
 	});
+	
 });
 
 
-ionicApp.controller('InfoCtrl', function($scope, $http) {
-	$http.get('data/information.json').success(function(data) {
-		$scope.groups = data;
+
+ionicApp.controller('InfoListCtrl', function($scope, infoFactory) {
+	
+	infoFactory.list(function(info) {
+		$scope.info = info;
+	});
+
+});
+
+
+
+ionicApp.controller('InfoDetailCtrl', function($scope, $stateParams, infoFactory) {
+	
+	infoFactory.find($stateParams.infoid, function(info) {
+		$scope.info = info;
 	});
 	
-	$scope.toggleGroup = function(group) {
-		if($scope.isGroupShown(group)) {
-			$scope.showGroup = null;
-		} else {
-			$scope.showGroup = group;
-		}
-	};
-	
-	$scope.isGroupShown = function(group) {
-		return $scope.showGroup === group;
-	};
 });
+
 
 
 ionicApp.run(function($ionicPlatform) {
