@@ -146,7 +146,7 @@ display:block;
 .content.detail { margin:0px; background:#fff; padding:50px; width:980px;}
 
 .content.detail .controls {  z-index:10000; position:absolute; width:880px; margin-top:-23px}
-.content.detail .controls  a { position:relative; font-family: 'playfair'; font-weight: normal; font-size:18px; color:#333; text-decoration:none; float:left; background-color:#fff; border-radius:8px; padding:8px  16px 8px 8px; display:block; letter-spacing:1px; line-height:48px;}
+.content.detail .controls  a { position:relative; font-family: 'playfair'; font-weight: normal; font-size:18px; color:#333; text-decoration:none; float:left; background-color: rgba(255,255,255,.75); border-radius:8px; padding:8px  16px 8px 8px; display:block; letter-spacing:1px; line-height:46px;}
 
 .content.detail .controls  a span { font-size:48px; display:block; float:left; color:#278639; padding:0px 10px 0px 0px}
 .content.detail .controls  a.right { float:right}
@@ -158,7 +158,7 @@ display:block;
 .content.detail .media a { text-decoration:none; height:80px; width:80px; display:block; line-height:85px; background-color:#278639; border-radius:50%; color:#fff; font-size:52px; display:inline-block; margin:30px 10px}
 
 .content.detail .media a:last-child { text-indent:5px}
-.content.detail .text { max-width:640px; color:#ccc; margin:auto; font-size:20px; text-align:left; line-height:32px} 
+.content.detail .text { max-width:640px; color:#ccc; margin:auto; font-size:20px; text-align:left; padding-bottom:80px; line-height:32px} 
 
 
 
@@ -186,6 +186,22 @@ display:block;
   -webkit-transition-property: -webkit-transform;
   transition-property: transform; */
  }
+ 
+ 
+ [nav-view-transition="android"] [nav-view="entering"] .content.detail .media a , [nav-view-transition="android"] [nav-view="leaving"] .content.detail .media a  {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: flipInY;
+  animation-name: flipInY;
+ /* animation-delay:1s;
+  -webkit-animation-delay:1s;*/
+
+ }
+ 
+ 
+ 
  
  
 [nav-view-transition="android"] [nav-view="active"], [nav-view-transition="android"][nav-view-direction="forward"] [nav-view="entering"], [nav-view-transition="android"][nav-view-direction="back"] [nav-view="leaving"] {
