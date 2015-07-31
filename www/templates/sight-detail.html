@@ -2,18 +2,16 @@
 	<h1>Květná zahrada</h1>
 	
 	<div class="nav-bar">
-		<a href="#/" class="button back">Úvod</a>
-		<a href="#/pamatky" class="button back">Zpět</a>
+		<a href="#/" class="button"><span class="azz-map"></span></a>
+		<a href="#/pamatky" class="button back"><span class="azz-back"></span></a>
 	</div>
 </div>
-
-<ion-content>
-	<div class="content">
-		<div class="controls">
-			<a href="#/pamatky/{{prevSight.id}}">{{prevSight.name}}</a>
-			<a href="#/pamatky/{{nextSight.id}}">{{nextSight.name}}</a>
+	<div class="content detail">
+    <div class="controls">
+			<a href="#/pamatky/{{prevSight.id}}" ng-if="prevSight.id" class="left"><span class="azz-left"></span>{{prevSight.name}}</a>
+			<a href="#/pamatky/{{nextSight.id}}" ng-if="nextSight.id" class="right">{{nextSight.name}}<span class="azz-right"></span></a>
 		</div>
-		
+<ion-content>
 		<div class="section-image">
 			<img ng-src="{{sight.sectionImage}}" />
 		</div>
@@ -21,12 +19,13 @@
 		<h2>{{sight.name}}</h2>
 		
 		<div class="media">
-			<a href="#">Galerie</a>
-			<a href="#">Video</a>
+			<a href="#"><span class="azz-photo"></span></a>
+			<a href="#"><span class="azz-play"></span></a>
 		</div>
 		
-		<div class="body">
+		<div class="text">
 			<p ng-repeat="paragraph in sight.body">{{paragraph}}</p>
 		</div>
-	</div>
+
 </ion-content>
+	</div>
