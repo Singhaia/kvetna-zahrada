@@ -138,7 +138,27 @@ display:block;
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
   filter: gray;  }
-.list .item a span { display:block; color:#333; font-family: 'playfair'; font-weight: normal; font-size:18px; margin-top:15px}
+.list .item a span { display:block; color:#333; font-family: 'playfair'; font-weight: normal; font-size:18px; margin-top:15px; letter-spacing:1px}
+
+
+/* DETAIL OBJEKTU  */
+
+.content.detail { margin:0px; background:#fff; padding:50px; width:980px;}
+
+.content.detail .controls {  z-index:10000; position:absolute; width:880px; margin-top:-23px}
+.content.detail .controls  a { position:relative; font-family: 'playfair'; font-weight: normal; font-size:18px; color:#333; text-decoration:none; float:left; background-color:#fff; border-radius:8px; padding:8px  16px 8px 8px; display:block; letter-spacing:1px; line-height:48px;}
+
+.content.detail .controls  a span { font-size:48px; display:block; float:left; color:#278639; padding:0px 10px 0px 0px}
+.content.detail .controls  a.right { float:right}
+.content.detail .controls  a.right span { padding:0px 0px 0px 10px; float:right}
+
+.content.detail img { border-radius: 50%; width:250px; height:250px; margin:auto; margin-top:50px; margin-bottom:20px;}
+.content.detail  h2 { font-size:48px; color:#333}
+
+.content.detail .media a { text-decoration:none; height:80px; width:80px; display:block; line-height:85px; background-color:#278639; border-radius:50%; color:#fff; font-size:52px; display:inline-block; margin:30px 10px}
+
+.content.detail .media a:last-child { text-indent:5px}
+.content.detail .text { max-width:640px; color:#ccc; margin:auto; font-size:20px; text-align:left; line-height:32px} 
 
 
 
@@ -147,13 +167,6 @@ display:block;
 	background-size: cover; 
 }
 
-
-.section-image { 
-	width: 16em;
-	height: 16em;
-	border-radius: 50%;
-	overflow: hidden;
-}
 
 
 
