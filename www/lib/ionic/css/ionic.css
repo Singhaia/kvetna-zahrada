@@ -7634,7 +7634,7 @@ a.button {
   display: block; }
   [nav-bar-transition="ios"] [nav-bar="cached"] .header-item {
     display: none; }
-
+/*
 [nav-view-transition="android"] [nav-view="entering"], [nav-view-transition="android"] [nav-view="leaving"] {
   -webkit-transition-duration: 200ms;
   transition-duration: 200ms;
@@ -7688,3 +7688,4 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+*/

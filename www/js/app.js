@@ -8,7 +8,7 @@ var ionicApp = angular.module('ionicApp', ['ionic']);
 
 ionicApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
 	
-	$ionicConfigProvider.views.transition('none');
+	$ionicConfigProvider.views.transition('android');
 	
 	$stateProvider
 		.state('home', {
