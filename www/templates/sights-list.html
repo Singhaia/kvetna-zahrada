@@ -1,15 +1,17 @@
-	<div class="sidebar">
-		<h1>Květná zahrada</h1>
-		
-		<div class="nav-bar">
-			<a href="#/" class="button back">Úvod</a>
-			<a href="#/pamatky" class="button back">Zpět</a>
-		</div>
+<div class="sidebar">
+	<h1>Květná zahrada</h1>
+	
+	<div class="nav-bar">
+		<a href="#/" class="button back">Úvod</a>
+		<a href="#/pamatky" class="button back">Zpět</a>
 	</div>
+</div>
+
 <ion-content>
 	<div class="content">
 		<div class="list">
 			<div class="item" ng-repeat="sight in sights">
+				<img ng-src="{{sight.images[0]}}" />
 				<span><a href="#/pamatky/{{sight.id}}">{{sight.id}} | {{sight.name}}</a></span>
 			</div>
 		</div>
