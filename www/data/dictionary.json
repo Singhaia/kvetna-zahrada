@@ -67,7 +67,7 @@
 	},
 	
 	{
-		"url": "kolonada"
+		"url": "kolonada",
 		"name": "Kolonáda",
 		"body": [
 			"Kolonáda je krytá chodba z jedné nebo dvou stran tvořená sloupy. V Květné zahradě je tak označována stavba, která v zahradě nahrazuje budovu zámku."
@@ -78,7 +78,7 @@
 	},
 	
 	{
-		"url": "kvetnice"
+		"url": "kvetnice",
 		"name": "Květnice",
 		"body": [
 			"Květnice je část zahrady dělená sítí cest na boskety."
@@ -89,7 +89,7 @@
 	},
 	
 	{
-		"url": "libosad"
+		"url": "libosad",
 		"name": "Libosad",
 		"body": [
 			"Tímto slovem byla dříve nazývána Květná zahrada. Můžeme ho přeložit jako \"zahrada k potěšení člověka\"."

@@ -40,6 +40,11 @@ ionicApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvide
 			url: '/informace/:infoid',
 			templateUrl: 'templates/info-detail.html',
 			controller: 'InfoDetailCtrl'
+		})
+		.state('dictionary', {
+			url: '/slovnicek',
+			templateUrl: 'templates/dictionary.html',
+			controller: 'DictionaryCtrl'
 		});
 	
 	$urlRouterProvider.otherwise('/');
@@ -217,6 +222,18 @@ ionicApp.controller('InfoDetailCtrl', function($scope, $stateParams, infoFactory
 	
 	infoFactory.find($stateParams.infoid, function(info) {
 		$scope.info = info;
+	});
+	
+});
+
+
+
+ionicApp.controller('DictionaryCtrl', function($scope, $http) {
+	
+	$http.get('data/dictionary.json').success(function(data) {
+		$scope.dictionary = data;
+	}).error(function() {
+		console.log('error fetching data from json');
 	});
 	
 });
