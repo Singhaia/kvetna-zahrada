@@ -160,12 +160,12 @@ ionicApp.controller('SightsCtrl', function($scope, sightsFactory) {
 
 
 
-ionicApp.controller('SightCtrl', function($scope, $stateParams, sightsFactory) {
+ionicApp.controller('SightCtrl', function($scope, $stateParams, $ionicModal, sightsFactory) {
 	
 	sightsFactory.find($stateParams.sightid, function(sight) {
 		console.log($stateParams.sightid);
 		$scope.sight = sight;
-		$scope.sight.sectionImage = sight.images[0];
+		$scope.sight.sectionImage = sight.images[0].src;
 		console.log($scope.sight);
 	});
 	
@@ -178,6 +178,26 @@ ionicApp.controller('SightCtrl', function($scope, $stateParams, sightsFactory) {
 		$scope.nextSight = sightNext;
 		console.log($scope.nextSight);
 	});
+	
+	$scope.showGallery = function() {
+		//$scope.activeSlide = index;
+		$scope.showModal('templates/modal-gallery.html');
+	};
+	
+	$scope.showModal = function(template) {
+		$ionicModal.fromTemplateUrl(template, {
+			scope: $scope,
+			animation: 'slide-in-up'
+		}).then(function(modal) {
+			$scope.modal = modal;
+			$scope.modal.show();
+		});
+	};
+	
+	$scope.closeModal = function() {
+		$scope.modal.hide();
+		$scope.modal.remove();
+	};
 	
 });
 

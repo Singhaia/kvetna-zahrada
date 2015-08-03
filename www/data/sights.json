@@ -1,19 +1,25 @@
 [
 
 	{
-		"id" : 1,
-		"url" : "cestny-dvur",
-		"name" : "Čestný dvůr",
-		"body" : [
+		"id": 1,
+		"url": "cestny-dvur",
+		"name": "Čestný dvůr",
+		"body": [
 			"Do Květné zahrady vás uvádí Čestný dvůr postavený na přání arcibiskupa Maxmiliána Josefa v polovině 19. století. Rozhodl se otevřít zahradu veřejnosti. Zjistil, že zvýšenému počtu návštěvníků nebude vyhovovat původní průchod v kolonádě. Proto nechal na nový vstup přebudovat část zahrady sloužící jako provozní prostor zahradníků. Úkolem byl pověřen architekt Anton Arche, který dal vstupu podobu stavení uspořádaného do tvaru písmene U otevřeného směrem do zahrady. Vznikl tzv. čestný dvůr vymezený patrovou budovou pro ubytování zahradníků a dva skleníky.",
 			"Nově vybudovaný vstup však narušil původní představu tvůrců zahrady. Návštěvník nyní vstupuje do zahrady boční cestou a musí se orientovat podle kopule Rotundy. Teprve u ní vstoupí na hlavní osu zahrady.",
 			"V Čestném dvoře jsou od jara do podzimu instalovány rostliny v nádobách, které zimují ve sklenících."
 		],
-		"images" : [
-			"img/sights/cestny-dvur/01.jpg",
-			"img/sights/cestny-dvur/02.jpg"
+		"images": [
+			{
+				"src": "img/sights/cestny-dvur/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/cestny-dvur/02.jpg",
+				"caption": "caption 2"
+			}
 		],
-		"video" : [
+		"video": [
 			"path/to/video"
 		]
 	},
@@ -27,9 +33,18 @@
 			"Ve druhé polovině 20. století se zde začala prezentovat sbírka tropických rostlin. Musela se zde proto navýšit jak teplota, tak vlhkost vzduchu a skleníku se proto říkalo teplý. Tato změna ovšem vedla ke značnému poškození, a proto byla nutná oprava. V letech 2012 -2014 prošel skleník kompletní proměnou. Znovu slouží k přezimování choulostivých rostlin a je vytápěn maximálně do 10 stupňů Celsia. V létě jsou zde pořádány výstavy."
 		],
 		"images" : [
-			"img/sights/palmovy-sklenik/01.jpg",
-			"img/sights/palmovy-sklenik/02.jpg",
-			"img/sights/palmovy-sklenik/03.jpg"
+			{
+				"src": "img/sights/palmovy-sklenik/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/01.jpg",
+				"caption": "caption 2"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/03.jpg",
+				"caption": "caption 3"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -46,10 +61,22 @@
 			"Své původní umístění zde našla i Neptunova kašna."
 		],
 		"images" : [
-			"img/sights/holandska-zahrada/01.jpg",
-			"img/sights/holandska-zahrada/02.jpg",
-			"img/sights/holandska-zahrada/03.jpg",
-			"img/sights/holandska-zahrada/04.jpg"
+			{
+				"src": "img/sights/holandska-zahrada/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/02.jpg",
+				"caption": "caption 2"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/03.jpg",
+				"caption": "caption 3"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/04.jpg",
+				"caption": "caption 4"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -65,8 +92,14 @@
 			"Dnes se citrusy pěstují v přenosných květináčích a v zahradě jsou pouze v letních měsících. Na zimu se stěhují do skleníku. Můžeme mít potěšení jak z jejich krásy, tak také vůně a chuti."
 		],
 		"images" : [
-			"img/sights/pomerancova-zahrada/01.jpg",
-			"img/sights/pomerancova-zahrada/02.jpg"
+			{
+				"src": "img/sights/pomerancova-zahrada/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/pomerancova-zahrada/02.jpg",
+				"caption": "caption 2"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -82,7 +115,10 @@
 			"Prostor slouží také jako oddychová zóna, kde můžete vychutnávat chůzi si po trávníku nebo si do něj lehnout. V letních měsících je možné nechat se zde osvěžit mlžnými tryskami."
 		],
 		"images" : [
-			"img/sights/cestny-dvur/01.jpg"
+			{
+				"src": "img/sights/cestny-dvur/01.jpg",
+				"caption": "caption 1"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -98,8 +134,14 @@
 			"Ve 20. století byla na střeše kolonády vybudována lávka, která návštěvníkům umožňuje přehlédnout z výšky výsadbu květin. Je možné na ni vystoupat po úzkém točitém schodišti v pohledově pravé části kolonády. Při výstupu nebo sestupu dbejte na zvýšenou opatrnost, neboť se můžete střetnout s návštěvníky v protisměru."
 		],
 		"images" : [
-			"img/sights/kolonada/01.jpg",
-			"img/sights/kolonada/02.jpg"
+			{
+				"src": "img/sights/kolonada/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/kolonada/02.jpg",
+				"caption": "caption 2"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -115,8 +157,14 @@
 			"Plocha květnice je dělena tvarovanými stěnami na drobnější prostory, jakési zahradní pokoje, kterým se říká boskety. Do bosketů bývaly v zahradě umisťovány nejrůznější zajímavosti – sochy, fontány, vzácné rostliny a ornamenty ze zastřižených keřů."
 		],
 		"images" : [
-			"img/sights/kvetnice/01.jpg",
-			"img/sights/kvetnice/02.jpg"
+			{
+				"src": "img/sights/kvetnice/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/kvetnice/02.jpg",
+				"caption": "caption 2"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -132,8 +180,14 @@
 			"Lví fontána je jedním z nejhodnotnějších sochařských děl dochovaných v zahradě. Vytváří zrcadlovou kompozici se svým protějškem, Fontánou Tritonů. V době, kdy zahrada sloužila spíše hospodářským účelům, byly přestěhovány do Podzámecké zahrady. Na své místo se vrátily při obnově zahrady v 50. letech 20. století. Na rozdíl od Fontány tritonů zůstala Lví fontána v původní podobě. Pouze bylo nutné zhotovit novou nádrž podle historických předloh."
 		],
 		"images" : [
-			"img/sights/lvi-fontana/01.jpg",
-			"img/sights/lvi-fontana/02.jpg"
+			{
+				"src": "img/sights/lvi-fontana/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/lvi-fontana/02.jpg",
+				"caption": "caption 2"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -148,7 +202,10 @@
 			"Zatímco Lví fontána zůstala dochována do dnešních časů v původní podobě, z fontány Tritónů zůstala z barokního období jen horní vana s trojicí vodních bůžků troubících na lastury. Spodní část zdobená čtyřmi satyry se nedochovala a byla v roce 1954 nahrazena čtyřmi symbolickými postavami průmyslu a zemědělství pojatými ve stylu socialistického realismu sochařem Zdeňkem Kovářem. Přestože jsou nové sochy spojeny s obdobím, které bylo pro naši zemi těžké, mají vysokou řemeslnou a výtvarnou úroveň. Vhodně doplňují celek kašny. Symbolická postava Elektřiny se navíc považuje za nejhezčí ženskou sochou v zahradě."
 		],
 		"images" : [
-			"img/sights/fontana-tritonu/01.jpg"
+			{
+				"src": "img/sights/fontana-tritonu/01.jpg",
+				"caption": "caption 1"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -167,9 +224,18 @@
 			"Současný vzhled získala stavba na začátku 20. století za arcibiskupa Kohna, který nechal provést četné stavební úpravy. Chtěl zde zřídit arcidiecézní muzeum. V rotundě bylo instalováno Foucaultovo kyvadlo, zařízení dokazující, že se země otáčí kolem své osy. Když se začne kyvadlo houpat, kreslí do písku čáru. Protože se země otáčí, stopa v písku nemá podobu jediné čáry. Při delším pozorování je co celý vějíř."
 		],
 		"images" : [
-			"img/sights/rotunda/01.jpg",
-			"img/sights/rotunda/02.jpg",
-			"img/sights/rotunda/03.jpg"
+			{
+				"src": "img/sights/rotunda/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/rotunda/02.jpg",
+				"caption": "caption 2"
+			},
+			{
+				"src": "img/sights/rotunda/03.jpg",
+				"caption": "caption 3"
+			}			
 		],
 		"video" : [
 			"path/to/video"
@@ -185,7 +251,10 @@
 			"V zahradním umění se k vytváření bludišť využívají různě vysoké tvarované živé ploty. V Květné zahradě můžeme najít labyrinty kruhového i čtvercového tvaru. Výška jejich plotů vychází ještě z renesanční tradice, kdy ploty nepřevyšovaly člověka. Muž mohl vidět středový bod, k němuž mířil, případně dámu, kterou se snažil dostihnout. Při honičce musel respektovat ploty. Tomu napomáhaly pichlavé větvičky keřů, z nichž bývaly labyrinty vysazeny. V Květné zahradě jsou nyní oba obrazce vysazeny z habrů."
 		],
 		"images" : [
-			"img/sights/bludiste/01.jpg"
+			{
+				"src": "img/sights/bludiste/01.jpg",
+				"caption": "caption 1"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -204,9 +273,18 @@
 			"Každoročně musejí zahradníci dvakrát ostříhat 78 tisíc metrů čtverečních (8 hektarů) plochy vysokých stěn, 12 tisíc metrů čtverečních nižších habrových plotů a 6 tisíc metrů čtverečních nízkých plůtků a ornamentů."
 		],
 		"images" : [
-			"img/sights/tvarovane-steny/01.jpg",
-			"img/sights/tvarovane-steny/02.jpg",
-			"img/sights/tvarovane-steny/03.jpg"
+			{
+				"src": "img/sights/tvarovane-steny/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/02.jpg",
+				"caption": "caption 2"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/03.jpg",
+				"caption": "caption 3"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -221,8 +299,14 @@
 			"Stinný stromový tunel uprostřed zahrady tvoří předěl mezi květnicí a štěpnicí. Štěpnice přinášela nejen potěšení z krásy, nýbrž také užitek. Hlavní podélná cesta dělí její plochu na dvě stejně upravené části. Nacházejí se zde tzv. Pstruží rybníky, Jahodové kopečky a kuželna. Plocha štěpnice byla osázena ovocnými stromy. Šlo o sbírku tehdy nejlepších známých odrůd ovoce, které si nechal biskup Karel dovézt především z Itálie a Rakouska. Ovocné dřeviny se zde pěstovaly až do 70. let 20. století a počítá se s jejich opětovným vysazením. Dnes plochu vyplňuje květinová louka s dvaceti druhy volně rostoucích bylin. Není tedy záměrem udržovat zde krátce střižený trávník."
 		],
 		"images" : [
-			"img/sights/stepnice/01.jpg",
-			"img/sights/stepnice/02.jpg"
+			{
+				"src": "img/sights/stepnice/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/stepnice/02.jpg",
+				"caption": "caption 2"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -238,8 +322,14 @@
 			"Rybníky se využívaly nejen jako chovné nádrže, ale také k ukrácení volné chvíle biskupových hostů. Po schůdkách se totiž dalo sejít k připraveným loďkám a vychutnat si plavbu uvnitř rybníka. V letech 2012 – 2014 proběhla rozsáhlá obnova rybníků. Zatímco u jednoho z rybníků byly dobře dochovány stěny a dno bazénu, druhý je v podstatě novostavbou. Podle několika kuželek bylo obnoveno také kamenné zábradlí."
 		],
 		"images" : [
-			"img/sights/pstruzi-rybniky/01.jpg",
-			"img/sights/pstruzi-rybniky/02.jpg"
+			{
+				"src": "img/sights/pstruzi-rybniky/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/02.jpg",
+				"caption": "caption 2"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -255,7 +345,10 @@
 			"Dnes vede na vrchol okružní pěšina lemovaná tvarovanými ploty z habrů. Předobrazem pro vybudování kopečků mohla být babylonská věž, hora Olymp či bájná hora Parnas, sídlo boha Apollona. Na vrcholu kopečků stály dřevěné vyhlídkové pavilony, ze kterých se otevíral pohled jak na zahradu, tak do okolní krajiny a na město s jeho zámkem a kostely."
 		],
 		"images" : [
-			"img/sights/jahodove-kopecky/01.jpg"
+			{
+				"src": "img/sights/jahodove-kopecky/01.jpg",
+				"caption": "caption 1"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -270,7 +363,10 @@
 			"Další atrakcí štěpnice byla kuželna, kruhový prostor uprostřed zelených stěn na hlavní ose zahrady. Zde byly pro návštěvníky připraveny dřevěné kuželky ke hře. Hru mohli sledovat z kamenných sedátek, do kterých byly vyvedeny trysky vodního stroje, takže mohli být kdykoli nečekaně postříkáni. Kuželnu zdobily sochy šlechtice a šlechtičny. Dnes tento prostor znovu ožívá při hře s kuželkami vyrobenými podle dobových vzorů"
 		],
 		"images" : [
-			"img/sights/kuzelna/01.jpg"
+			{
+				"src": "img/sights/kuzelna/01.jpg",
+				"caption": "caption 1"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -287,8 +383,14 @@
 			"Podle dobové rytiny bylo kdysi v okolí ptáčnice také osm soch, kamenná sedátka a ovocné dřeviny. Dnes zde po rozsáhlé obnově naleznete obnovené kamenné zábradlí, dřevěné plůtky i vysázené ovocné dřeviny."
 		],
 		"images" : [
-			"img/sights/ptacnice/01.jpg",
-			"img/sights/ptacnice/02.jpg"
+			{
+				"src": "img/sights/ptacnice/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/ptacnice/02.jpg",
+				"caption": "caption 2"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -305,10 +407,22 @@
 			"Okolí kopce doplnila výsadba starých odrůd ovocných stromů a v přilehlém obslužném domku je nyní dětská herna."
 		],
 		"images" : [
-			"img/sights/kralici-kopec/01.jpg",
-			"img/sights/kralici-kopec/02.jpg",
-			"img/sights/kralici-kopec/03.jpg",
-			"img/sights/kralici-kopec/04.jpg"
+			{
+				"src": "img/sights/kralici-kopec/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/kralici-kopec/02.jpg",
+				"caption": "caption 2"
+			},
+			{
+				"src": "img/sights/kralici-kopec/03.jpg",
+				"caption": "caption 3"
+			},
+			{
+				"src": "img/sights/kralici-kopec/04.jpg",
+				"caption": "caption 4"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -323,7 +437,10 @@
 			"V prostoru, kde se dnes nachází zahradnictví, byla v barokním období bažantnice. K jejich chovu sloužila stavba obklopená nízkými keři, které poskytovaly ptákům potřebný úkryt. Bažanti tehdy patřili k velmi ceněnému zboží. Tradice jejich chovu se v Květné zahradě udržela asi 50 let. Poté na ploše zrušené bažantnice vyrostly skleníky a pařeniště. Od druhé poloviny 20. století se zde nachází zámecké zahradnictví. Po rekonstrukci zahrady zde přibyla řada vzorových záhonů s květinovou a zeleninovou výsadbou a moderní skleník. Ten slouží jako produkční zázemí pro obě kroměřížské zahrady. Ročně se v něm předpěstuje asi 80 – 100 tisíc květin, které se v květnu vysazují do zahrady."
 		],
 		"images" : [
-			"img/sights/zahradnictvi/01.jpg"
+			{
+				"src": "img/sights/zahradnictvi/01.jpg",
+				"caption": "caption 1"
+			}
 		],
 		"video" : [
 			"path/to/video"
@@ -340,8 +457,14 @@
 			"Skleník byl vytápěn teplým vzduchem. V létě sloužil k pořádání kulturních a společenských akcí. Svými rozměry 80 m x 15 m byl dlouhou dobu největším sálem v širokém okolí. Ve druhé polovině 20. století se tradice tvorby zimní zahrady opustila a rostliny zde byly pouze zimovány. Stavba prodělala řadu úprav. Kompletní renovace se dočkala mezi lety 2012 a 2014. V současnosti se návštěvníci v zimě opět těší ze zimní expozice, v létě jsou zde pořádány koncerty, výstavy a podobně. Lákadlem sbírky rostlin je kolekce stoletých kamélií a dalších subtropických rostlin."
 		],
 		"images" : [
-			"img/sights/velky-sklenik/01.jpg",
-			"img/sights/velky-sklenik/02.jpg"
+			{
+				"src": "img/sights/velky-sklenik/01.jpg",
+				"caption": "caption 1"
+			},
+			{
+				"src": "img/sights/velky-sklenik/02.jpg",
+				"caption": "caption 2"
+			}
 		],
 		"video" : [
 			"path/to/video"
