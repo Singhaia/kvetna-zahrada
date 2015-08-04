@@ -170,6 +170,53 @@ display:block;
 	background-size: cover; 
 }
 
+/* MAPA */
+.content.map { 
+	width:930px;
+	float:right;
+	min-height:inherit;
+	margin:50px 50px 50px 0;
+	padding:25px 50px;
+	background-color:#fff;
+	border-radius:8px;
+	height:700px;
+	background:#fff url(../img/mapa-kvetna.gif) no-repeat center center;
+}
+.content.map .list .item  { float:inherit; width:auto; height:auto; background:none; border:none; position:absolute; overflow:visible}
+
+.content.map .list .item:nth-child(1){ left:490px; top:525px; z-index:120}
+.content.map .list .item:nth-child(2){ left:490px; top:430px; z-index:116}
+.content.map .list .item:nth-child(3){ left:575px; top:430px; z-index:115}
+.content.map .list .item:nth-child(4){ left:725px; top:430px; z-index:114}
+.content.map .list .item:nth-child(5){ left:650px; top:485px; z-index:117}
+.content.map .list .item:nth-child(6){ left:770px; top:210px; z-index:100}
+.content.map .list .item:nth-child(7){ left:685px; top:210px; z-index:109}
+.content.map .list .item:nth-child(8){ left:630px; top:332px; z-index:110}
+.content.map .list .item:nth-child(9){ left:650px; top:90px; z-index:100}
+.content.map .list .item:nth-child(10){ left:585px; top:210px; z-index:100}
+.content.map .list .item:nth-child(11){ left:415px; top:260px; z-index:111}
+.content.map .list .item:nth-child(12){ left:415px; top:360px; z-index:112}
+.content.map .list .item:nth-child(13){ left:355px; top:165px; z-index:100}
+.content.map .list .item:nth-child(14){ left:240px; top:305px; z-index:113}
+.content.map .list .item:nth-child(15){ left:115px; top:120px; z-index:100}
+.content.map .list .item:nth-child(16){ left:190px; top:215px; z-index:100}
+.content.map .list .item:nth-child(17){ left:40px; top:490px; z-index:100}
+.content.map .list .item:nth-child(18){ left:180px; top:500px; z-index:100}
+.content.map .list .item:nth-child(19){ left:315px; top:470px; z-index:118}
+.content.map .list .item:nth-child(20){ left:420px; top:470px; z-index:119}
+
+
+.content.map .list .item .point{  width:50px; height:50px; border-radius:50%; line-height:45px; text-align:center; background-color:#278639; color:#FFF;  font-family: 'playfair'; font-size:32px;  }
+
+.content.map .list .item .point a  { display:none; width:160px; height:160px; border-radius:50%; background-color:#f7f7f7; color:#333; font-family: 'playfair'; font-size:21px; line-height:normal;  text-align:center; padding:10px; padding-top:45px; position:absolute;  top:-138px; left:-39px; white-space:normal }
+.content.map .list .item .point:hover a, .content.map .list .item .point:focus  { display:block; }
+
+.content.map .list .item .point a span { display:block; color:#278639; font-family: 'azz-app'; font-size:58px; position:absolute; left:50px; top:75px  }
+
+.content.map .list .item .point a i { display:block; width:20px; height:20px; background-color:#f7f7f7; position:absolute; bottom:0px; left:72px;     transform: rotate(45deg);
+    transform-origin: 20% 40%;}
+
+
 /* INFO */
 .content.info { 
 	width:930px;

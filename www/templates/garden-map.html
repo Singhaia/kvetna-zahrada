@@ -2,16 +2,18 @@
 	<h1>Květná zahrada</h1>
 	
 	<div class="nav-bar">
-		<a href="#/pamatky" class="button back">Památky</a>
-		<a href="#/" class="button back">Úvod</a>
+		<a href="#/pamatky" class="button back"><span class="azz-objects"></span></a>
+		<a href="#/" class="button back"><span class="azz-back"></span></a>
 	</div>
 </div>
 
 <ion-content>
-	<div class="content">
+	<div class="content map">
 		<div class="list">
-			<div class="item" ng-repeat="sight in sights">
-				<span><a href="#/pamatky/{{sight.id}}">{{sight.id}} | {{sight.name}}</a></span>
+			<div class="item" ng-repeat="sight in sights"> 
+            <div class="point">{{sight.id}}
+				<a href="#/pamatky/{{sight.id}}">{{sight.name}}<span class="azz-right"></span><i></i></a>
+            </div>
 			</div>
 		</div>
 	</div>
