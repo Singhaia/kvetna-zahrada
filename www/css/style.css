@@ -134,7 +134,8 @@ display:block;
 
  
 .list .item a { text-decoration:none;  text-align:center; display:block; height:100%; width:100%  }
-.list .item a img { border-radius:50%; width:150px; height:150px;     
+.list .item a  div { border-radius:50%; width:150px; height:150px; overflow:hidden; margin:auto}
+.list .item a  div img { max-height:100%;
 -webkit-filter: grayscale(0.7);
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
@@ -153,7 +154,9 @@ display:block;
 .content.detail .controls  a.right { float:right}
 .content.detail .controls  a.right span { padding:0px 0px 0px 10px; float:right}
 
-.content.detail img { border-radius: 50%; width:250px; height:250px; margin:auto; margin-top:50px; margin-bottom:20px;}
+.content.detail .section-image { border-radius:50%; width:250px; height:250px; overflow:hidden; margin:auto; margin-top:50px; margin-bottom:20px;}
+.content.detail .section-image img { max-height:100%; }
+
 .content.detail  h2 { font-size:48px; margin:auto; color:#333; max-width:640px;  line-height:140%;}
 
 .content.detail .media a { text-decoration:none; height:80px; width:80px; display:block; line-height:85px; background-color:#278639; border-radius:50%; color:#fff; font-size:52px; display:inline-block; margin:30px 10px}
@@ -246,9 +249,10 @@ display:block;
 
 .content.dic .item { margin:20px 50px; margin:auto; border:none; border-bottom:1px solid #ccc; max-width:640px}
 .content.dic .item:last-child { border:none}
-.content.dic .item .image { float:left; max-width:40%; padding-right:25px }
-.content.dic .item .image img { max-width:100%; height:auto }
-.content.dic .item .text { float:left; max-width:60%; padding-left:25px;  }
+.content.dic .item .image { float:left; overflow:hidden; border-radius:50%;  width:235px; height:235px; 
+ padding-right:25px; margin-top:40px; margin-bottom:40px; text-align:center }
+.content.dic .item .image img { max-height:100%; margin:0; margin-left:-25% }
+.content.dic .item .text { float:right; max-width:60%; padding-left:25px;  }
 .content.dic .item p {font-size:inherit; font-size:1em; white-space:normal }
 
 .content.dic .item h3 { font-size:32px; margin-top:50px; color:#278639; margin-bottom:20px}
