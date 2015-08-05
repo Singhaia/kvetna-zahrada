@@ -11,7 +11,18 @@
 			"Vstup, poutníku, a chceš-li, pohleď na obtížnou přeměnu tohoto kdysi bažinatého a neobdělávaného pole. Šťastně a nerušeně užívej s potěšením zahradu, která byla zařízena náležitou péčí a nemalými náklady; pro tebe je postavena, také pro nás a potomky"
 		],
 		"images": [
-			"img/info/uvod/01.jpg"
+			{
+				"src": "img/info/intro/01.jpg",
+				"caption": "Busta biskupa Karla nad historickým vstupem do zahrady"
+			},
+			{
+				"src": "img/info/intro/02.jpg",
+				"caption": "Pohled z Holandské zahrady k Rotundě"
+			},
+			{
+				"src": "img/info/intro/03.jpg",
+				"caption": "Socha Neptuna v Holandské zahradě"
+			}
 		]
 	},
 	
@@ -25,8 +36,26 @@
 			"Květná zahrada je jedinou dochovanou zahradou tohoto typu. Ostatní zahrady založené v témže období zanikly nebo byly postupně upraveny v jiném uměleckém slohu. Stejnému osudu unikla Květná zahrada tím, že se časem proměnila na kuchyňskou zahradu. Unikátní zahradní stavby a vysoké tvarované stěny byly po staletí udržovány v původní podobě díky úctě dalších biskupů a arcibiskupů k dílu jejich předchůdce a povědomí o vysoké umělecké hodnotě zahradního celku. Od druhé poloviny 20. století je pak zahrada postupně obnovována do podoby, jakou pravděpodobně měla v době svého založení."
 		],
 		"images": [
-			"img/info/historie/01.jpg",
-			"img/info/historie/02.jpg"
+			{
+				"src": "img/info/history/01.jpg",
+				"caption": ""
+			},
+			{
+				"src": "img/info/history/02.jpg",
+				"caption": ""
+			},
+			{
+				"src": "img/info/history/03.jpg",
+				"caption": "Pohled do Květné zahrady v roce 1908"
+			},
+			{
+				"src": "img/info/history/04.jpg",
+				"caption": "Pohled do Květné zahrady v roce 1948"
+			},
+			{
+				"src": "img/info/history/05.jpg",
+				"caption": "Pohled do Květné zahrady v roce 1948"
+			}
 		]
 	},
 	
@@ -41,8 +70,62 @@
 			"Stavební část projektu se zaměřila na vzorovou obnovu významné části Květné zahrady. V Podzámecké zahradě vzniklo v rámci projektu zahradnické zázemí pro péči o obě kroměřížské historické zahrady. V interiéru zámku bylo zbudováno návštěvnické centrum spolu se stálou expozicí o kroměřížských zahradách."
 		],
 		"images": [
-			"img/info/obnova/01.jpg",
-			"img/info/obnova/02.jpg"
+			{
+				"src": "img/info/reconstruct/01.jpg",
+				"caption": "Historická rytina Květné zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/02.jpg",
+				"caption": "Letecký snímek Květné zahrady před zahájením obnovy"
+			},
+			{
+				"src": "img/info/reconstruct/03.jpg",
+				"caption": "Letecký snímek Květné zahrady po dokončení obnovy"
+			},
+			{
+				"src": "img/info/reconstruct/04.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/05.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/06.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/07.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/08.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/09.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/10.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/11.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/12.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/13.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			},
+			{
+				"src": "img/info/reconstruct/14.jpg",
+				"caption": "Snímek z obnovy zahrady"
+			}
 		]
 	},
 	
@@ -56,9 +139,38 @@
 			"Centrum připravuje kvalitní vzdělávací příležitosti zejména pro školy, rodiče s dětmi, seniory. Nezapomíná ale také na návštěvníky památek s nejrůznějšími typy zdravotního znevýhodnění. Podrobnosti o činnosti centra lze nalézt na internetových stránkách <i>www.nczk.cz</i>."
 		],
 		"images": [
-			"img/info/metodicke-centrum/01.jpg",
-			"img/info/metodicke-centrum/02.jpg",
-			"img/info/metodicke-centrum/03.jpg"
+			{
+				"src": "img/info/methodic-center/01.jpg",
+				"caption": "Lektor při prezentaci zahrady"
+			},
+			{
+				"src": "img/info/methodic-center/02.jpg",
+				"caption": "Lektorka při prezentaci zahrady"
+			},
+			{
+				"src": "img/info/methodic-center/03.jpg",
+				"caption": "Prohlídka zahrady s plumočníkem do znakového jazyka"
+			},
+			{
+				"src": "img/info/methodic-center/04.jpg",
+				"caption": "Prohlídka v rámci Víkendu otevřených zahrad"
+			},
+			{
+				"src": "img/info/methodic-center/05.jpg",
+				"caption": "Lektor s dětmi v zahradě"
+			},
+			{
+				"src": "img/info/methodic-center/06.jpg",
+				"caption": "Nevidomá žena vnímá dotykem sochu Neptuna"
+			},
+			{
+				"src": "img/info/methodic-center/07.jpg",
+				"caption": "Zakončení programu v zahradě pro děti"
+			},
+			{
+				"src": "img/info/methodic-center/08.jpg",
+				"caption": "Mezinárodní konference o zahradách"
+			}
 		]
 	},
 	

@@ -138,6 +138,44 @@ ionicApp.factory('infoFactory', function($http) {
 
 
 
+ionicApp.service('modalServcie', function($ionicModal, $rootScope) {
+	
+	var init = function(modalName, $scope) {
+		var promise;
+		
+		$scope = $scope || $rootScope.$new();
+		
+		promise = $ionicModal.fromTemplateUrl(modalName, {
+			scope: $scope,
+			animation: 'slide-in-up'
+		}).then(function(modal) {
+			$scope.modal = modal;
+			return modal;
+		});
+		
+		$scope.openModal = function() {
+			$scope.modal.show();
+		};
+		
+		$scope.closeModal = function(){
+			$scope.modal.hide();
+		};
+		
+		$scope.$on('$destroy', function() {
+			$scope.modal.remove();
+		});
+		
+		return promise;
+	};
+	
+	return {
+		init: init
+	};
+	
+});
+
+
+
 ionicApp.controller('HomepageCtrl', function($scope, $http) {
 	
 	$http.get('data/homepage.json').success(function(data) {
@@ -190,7 +228,6 @@ ionicApp.controller('SightCtrl', function($scope, $stateParams, $ionicModal, sig
 	});
 	
 	$scope.showModal = function(modalName) {
-		//$scope.activeSlide = index;
 		var modalPath = 'templates/modal-' + modalName + '.html';
 		$scope.openModal(modalPath);
 	};
@@ -224,11 +261,31 @@ ionicApp.controller('InfoListCtrl', function($scope, infoFactory) {
 
 
 
-ionicApp.controller('InfoDetailCtrl', function($scope, $stateParams, infoFactory) {
+ionicApp.controller('InfoDetailCtrl', function($scope, $stateParams, $ionicModal, infoFactory) {
 	
 	infoFactory.find($stateParams.infoid, function(info) {
 		$scope.info = info;
 	});
+	
+	$scope.showModal = function(modalName) {
+		var modalPath = 'templates/modal-' + modalName + '.html';
+		$scope.openModal(modalPath);
+	};
+	
+	$scope.openModal = function(template) {
+		$ionicModal.fromTemplateUrl(template, {
+			scope: $scope,
+			animation: 'slide-in-up'
+		}).then(function(modal) {
+			$scope.modal = modal;
+			$scope.modal.show();
+		});
+	};
+	
+	$scope.closeModal = function() {
+		$scope.modal.hide();
+		$scope.modal.remove();
+	};
 	
 });
 

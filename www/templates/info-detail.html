@@ -8,17 +8,17 @@
 	</div>
 </div>
 
-	<div class="content detail inf">
-		<div class="controls">
-			<a ng-if="prevInfo.id" href="#/informace/{{prevInfo.id}}">{{prevInfo.name}}</a>
-			<a ng-if="nextInfo.id" href="#/informace/{{nextInfo.id}}">{{nextInfo.name}}</a>
-		</div>
-<ion-content>
-<h2>{{info.name}}</h2>
+<div class="content detail inf">
+	<ion-content>
+		<h2>{{info.name}}</h2>
+		
+		<div class="media">
+            <a ng-click="showModal('info')"><span class="azz-photo"></span></a>
+        </div>
 		
 		<div class="text">
 			<p ng-repeat="paragraph in info.body">{{paragraph}}</p>
 		</div>
-
-</ion-content>
+	
+	</ion-content>
 </div>
