@@ -237,7 +237,19 @@ display:block;
 .content.info a { height:14.28%; width:100%; display:block; color:#278639; font-size:36px; font-family: 'playfair'; font-weight: normal; text-decoration:none;text-align:left; border-bottom:1px solid #ccc; line-height:90px; }
 .content.info a:last-child { border:none}
 
-.content.detail.inf h2{ margin:50px 0px }
+.content.detail.inf h2, .content.detail.dic h2{ margin:50px 0px }
+
+
+/* INFO SLOVNICEK */
+
+
+.content.dic .item { margin:20px 50px; border:none; border-bottom:1px solid #ccc;}
+.content.dic .item:last-child { border:none}
+.content.dic .item .image { float:left; max-width:40%; padding-right:25px }
+.content.dic .item .text { float:left; max-width:60%; padding-left:25px }
+
+.content.dic .item h3 { font-size:32px; margin-top:50px; color:#278639}
+
 
 
 /* ANIMACE PRECHODU */

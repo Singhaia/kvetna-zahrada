@@ -1,18 +1,15 @@
 <div class="sidebar">
 	<h1>Květná zahrada</h1>
-	
 	<div class="nav-bar">
     <a href="#/mapa-zahrady" class="button"><span class="azz-map"></span></a>
-	<a href="#/informace" class="button back"><span class="azz-back"></span></a>
-        
+	<a href="#/informace" class="button back"><span class="azz-back"></span></a> 
 	</div>
 </div>
-
-	<div class="content detail inf">
-		<div class="controls">
+<div class="content detail dic">
+	<!--	<div class="controls">
 			<a ng-if="prevInfo.id" href="#/informace/{{prevInfo.id}}">{{prevInfo.name}}</a>
 			<a ng-if="nextInfo.id"  href="#/informace/{{nextInfo.id}}">{{nextInfo.name}}</a>
-		</div>
+		</div>-->
 <ion-content>
 <h2>Slovníček</h2>
 		
@@ -21,7 +18,7 @@
 				<img ng-src="{{item.image[0]}}" />
 			</div>
 			<div class="text">
-				<h2>{{item.name}}</h2>
+				<h3>{{item.name}}</h3>
 				<p ng-repeat="p in item.body">{{p}}</p>
 			</div>
 		</div>
