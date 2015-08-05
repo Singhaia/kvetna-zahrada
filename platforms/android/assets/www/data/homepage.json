@@ -4,7 +4,10 @@
 		"id": "1",
 		"slug": "/",
 		"name": "Květná zahrada",
-		"body": "Vítáme Vás v Květné zahradě v Kroměříži, která je nejzachovalejší barokní zahradou na světě. Společně se zámkem a Podzámeckou zahradou je zapsána na Seznam památek světového kulturního a přírodního dědictví UNESCO."
+		"body": [
+			"Vítáme Vás v Květné zahradě v Kroměříži, která je nejzachovalejší barokní zahradou na světě.",
+			"Společně se zámkem a Podzámeckou zahradou je zapsána na Seznam památek světového kulturního a přírodního dědictví UNESCO."
+		]
 	}
 
 ]

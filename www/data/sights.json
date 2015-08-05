@@ -11,16 +11,52 @@
 		],
 		"images": [
 			{
+				"src": "img/sights/cestny-dvur/00.jpg",
+				"caption": "Historický snímek Čestného dvora"
+			},
+			{
 				"src": "img/sights/cestny-dvur/01.jpg",
-				"caption": "caption 1"
+				"caption": "Čestný dvůr"
 			},
 			{
 				"src": "img/sights/cestny-dvur/02.jpg",
-				"caption": "caption 2"
+				"caption": "Pohled na Čestný dvůr z květnice"
+			},
+			{
+				"src": "img/sights/cestny-dvur/03.jpg",
+				"caption": "Čestný dvůr"
+			},
+			{
+				"src": "img/sights/cestny-dvur/04.jpg",
+				"caption": "Čestný dvůr"
+			},
+			{
+				"src": "img/sights/cestny-dvur/05.jpg",
+				"caption": "Pohled na Čestný dvůr z kopule Rotundy"
+			},
+			{
+				"src": "img/sights/cestny-dvur/06.jpg",
+				"caption": "Podvečer v Čestném dvoře"
+			},
+			{
+				"src": "img/sights/cestny-dvur/07.jpg",
+				"caption": "Jarní pohled do Čestného dvora"
+			},
+			{
+				"src": "img/sights/cestny-dvur/08.jpg",
+				"caption": "Zimní pohled do Čestného dvora"
+			},
+			{
+				"src": "img/sights/cestny-dvur/09.jpg",
+				"caption": "Zahájení programu v zahradě pro vozíčkáře"
+			},
+			{
+				"src": "img/sights/cestny-dvur/10.jpg",
+				"caption": "Čestný dvůr v době obnovy"
 			}
 		],
 		"video": [
-			"path/to/video"
+			"video/test.mp4"
 		]
 	},
 	
@@ -35,15 +71,51 @@
 		"images" : [
 			{
 				"src": "img/sights/palmovy-sklenik/01.jpg",
-				"caption": "caption 1"
+				"caption": "Palmový skleník"
 			},
 			{
-				"src": "img/sights/palmovy-sklenik/01.jpg",
-				"caption": "caption 2"
+				"src": "img/sights/palmovy-sklenik/02.jpg",
+				"caption": "Palmový skleník"
 			},
 			{
 				"src": "img/sights/palmovy-sklenik/03.jpg",
-				"caption": "caption 3"
+				"caption": "Rostliny v nádobách u Palmového skleníku"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/04.jpg",
+				"caption": "Střecha palmového skleníku"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/05.jpg",
+				"caption": "Pilíř skleníku"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/06.jpg",
+				"caption": "Výstava kamélií ve skleníku"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/07.jpg",
+				"caption": "Výstava kamélií"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/08.jpg",
+				"caption": "Výstava kamélií"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/09.jpg",
+				"caption": "Vzdělávací program ve skleníku připravený pro nevidomé"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/10.jpg",
+				"caption": "Nevidomý muž voní ke květu kamélie"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/11.jpg",
+				"caption": "Palový skleník v době opravy"
+			},
+			{
+				"src": "img/sights/palmovy-sklenik/12.jpg",
+				"caption": "Interiér skleníku v době oprav"
 			}
 		],
 		"video" : [
@@ -63,19 +135,71 @@
 		"images" : [
 			{
 				"src": "img/sights/holandska-zahrada/01.jpg",
-				"caption": "caption 1"
+				"caption": "Holandská zahrada na historické rytině"
 			},
 			{
 				"src": "img/sights/holandska-zahrada/02.jpg",
-				"caption": "caption 2"
+				"caption": "Jaro v Holandské zahradě"
 			},
 			{
 				"src": "img/sights/holandska-zahrada/03.jpg",
-				"caption": "caption 3"
+				"caption": "Jaro v Holandské zahradě"
 			},
 			{
 				"src": "img/sights/holandska-zahrada/04.jpg",
-				"caption": "caption 4"
+				"caption": "Jaro v Holandské zahradě"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/05.jpg",
+				"caption": "Jaro v Holandské zahradě"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/06.jpg",
+				"caption": "Jaro v Holandské zahradě"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/07.jpg",
+				"caption": "Jaro v Holandské zahradě"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/08.jpg",
+				"caption": "Socha boha Neptuna"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/09.jpg",
+				"caption": "Podzim v Holandské zahradě"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/10.jpg",
+				"caption": "Podzim v Holandské zahradě"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/11.jpg",
+				"caption": "Zima v Holandské zahradě"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/12.jpg",
+				"caption": "Zima v Holandské zahradě"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/13.jpg",
+				"caption": "Umístění sochy Neptuna v Podzámecké zahradě na počátku 19. století"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/14.jpg",
+				"caption": "Šermířské vystoupení u Neptunovy kašny"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/15.jpg",
+				"caption": "Vzdělávací program v zahradě pro děti"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/16.jpg",
+				"caption": "Pohled do Holandské v době zahájení obnovy"
+			},
+			{
+				"src": "img/sights/holandska-zahrada/17.jpg",
+				"caption": "Zakládání záhonů"
 			}
 		],
 		"video" : [
@@ -93,12 +217,48 @@
 		],
 		"images" : [
 			{
+				"src": "img/sights/pomerancova-zahrada/00.jpg",
+				"caption": "Pomerančová zahrada na historické rytině"
+			},
+			{
 				"src": "img/sights/pomerancova-zahrada/01.jpg",
-				"caption": "caption 1"
+				"caption": "Pomerančová zahrada"
 			},
 			{
 				"src": "img/sights/pomerancova-zahrada/02.jpg",
-				"caption": "caption 2"
+				"caption": "Pomerančová zahrada"
+			},
+			{
+				"src": "img/sights/pomerancova-zahrada/03.jpg",
+				"caption": "Pomerančová zahrada"
+			},
+			{
+				"src": "img/sights/pomerancova-zahrada/04.jpg",
+				"caption": "Pomerančová zahrada"
+			},
+			{
+				"src": "img/sights/pomerancova-zahrada/05.jpg",
+				"caption": "Pomerančová zahrada při pohledu z kolonády"
+			},
+			{
+				"src": "img/sights/pomerancova-zahrada/06.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/pomerancova-zahrada/07.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/pomerancova-zahrada/08.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/pomerancova-zahrada/09.jpg",
+				"caption": "Obnova zahrady"
+			},
+			{
+				"src": "img/sights/pomerancova-zahrada/10.jpg",
+				"caption": "Obnova zahrady"
 			}
 		],
 		"video" : [
@@ -116,8 +276,48 @@
 		],
 		"images" : [
 			{
-				"src": "img/sights/cestny-dvur/01.jpg",
-				"caption": "caption 1"
+				"src": "img/sights/edukacni-zahrada/01.jpg",
+				"caption": "Edukační zahrada"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/02.jpg",
+				"caption": "Edukační zahrada"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/03.jpg",
+				"caption": "Rostliny v nádobách"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/04.jpg",
+				"caption": "Rostliny v nádobách"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/05.jpg",
+				"caption": "Pohled ke vstupu ze skleníku"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/06.jpg",
+				"caption": "Květy mandevily"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/07.jpg",
+				"caption": "Edukační zahrada"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/08.jpg",
+				"caption": "Podvečer v Edukační zahradě"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/09.jpg",
+				"caption": "Jarní záhon v Edukační zahradě"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/10.jpg",
+				"caption": "Zakládání Edukační zahrady"
+			},
+			{
+				"src": "img/sights/edukacni-zahrada/11.jpg",
+				"caption": "Zakládání Edukační zahrady"
 			}
 		],
 		"video" : [
@@ -136,11 +336,55 @@
 		"images" : [
 			{
 				"src": "img/sights/kolonada/01.jpg",
-				"caption": "caption 1"
+				"caption": "Středová část kolonády na historické rytině"
 			},
 			{
 				"src": "img/sights/kolonada/02.jpg",
-				"caption": "caption 2"
+				"caption": "Jedna ze zaniklých fontán zdobících kolonádu"
+			},
+			{
+				"src": "img/sights/kolonada/03.jpg",
+				"caption": "Pohled na kolonádu z květnice"
+			},
+			{
+				"src": "img/sights/kolonada/04.jpg",
+				"caption": "Kolonáda se Lví fontánou"
+			},
+			{
+				"src": "img/sights/kolonada/05.jpg",
+				"caption": "Pohled na kolonádu z květnice"
+			},
+			{
+				"src": "img/sights/kolonada/06.jpg",
+				"caption": "Kolonáda"
+			},
+			{
+				"src": "img/sights/kolonada/07.jpg",
+				"caption": "Arkády kolonády"
+			},
+			{
+				"src": "img/sights/kolonada/08.jpg",
+				"caption": "Průhled kolonádou"
+			},
+			{
+				"src": "img/sights/kolonada/09.jpg",
+				"caption": "Socha Bakcha"
+			},
+			{
+				"src": "img/sights/kolonada/10.jpg",
+				"caption": "Podzimní pohled z kolonády"
+			},
+			{
+				"src": "img/sights/kolonada/11.jpg",
+				"caption": "Průhledy oblouky kolonády"
+			},
+			{
+				"src": "img/sights/kolonada/12.jpg",
+				"caption": "Výzdoba v kolonádě v době barokního festivalu"
+			},
+			{
+				"src": "img/sights/kolonada/13.jpg",
+				"caption": "Vzdělávací program v kolonádě"
 			}
 		],
 		"video" : [
@@ -159,11 +403,107 @@
 		"images" : [
 			{
 				"src": "img/sights/kvetnice/01.jpg",
-				"caption": "caption 1"
+				"caption": "Výřez z historické rytiny s vyobrazením květnice"
 			},
 			{
 				"src": "img/sights/kvetnice/02.jpg",
-				"caption": "caption 2"
+				"caption": "Pohled do květnice od historického vstupu"
+			},
+			{
+				"src": "img/sights/kvetnice/03.jpg",
+				"caption": "Květnice"
+			},
+			{
+				"src": "img/sights/kvetnice/04.jpg",
+				"caption": "Květnice"
+			},
+			{
+				"src": "img/sights/kvetnice/05.jpg",
+				"caption": "Květnice"
+			},
+			{
+				"src": "img/sights/kvetnice/06.jpg",
+				"caption": "Detail výsadby v květnici"
+			},
+			{
+				"src": "img/sights/kvetnice/07.jpg",
+				"caption": "Detail výsadby v květnici"
+			},
+			{
+				"src": "img/sights/kvetnice/08.jpg",
+				"caption": "Pohled do květnice ze střechy kolonády"
+			},
+			{
+				"src": "img/sights/kvetnice/09.jpg",
+				"caption": "Pohled do květnice ze střechy kolonády"
+			},
+			{
+				"src": "img/sights/kvetnice/10.jpg",
+				"caption": "Pohled do květnice na jaře z kopule Rotundy"
+			},
+			{
+				"src": "img/sights/kvetnice/11.jpg",
+				"caption": "Pohled do květnice na jaře z kopule Rotundy"
+			},
+			{
+				"src": "img/sights/kvetnice/12.jpg",
+				"caption": "Výsadba v květnici"
+			},
+			{
+				"src": "img/sights/kvetnice/13.jpg",
+				"caption": "Letní pohled do květnice"
+			},
+			{
+				"src": "img/sights/kvetnice/14.jpg",
+				"caption": "Pohled na Ritundy z části květnice"
+			},
+			{
+				"src": "img/sights/kvetnice/15.jpg",
+				"caption": "Ozdobný záhon se sochami zápasíchc postav"
+			},
+			{
+				"src": "img/sights/kvetnice/16.jpg",
+				"caption": "Detail sousoší zápasníků"
+			},
+			{
+				"src": "img/sights/kvetnice/17.jpg",
+				"caption": "Podzimní pohled do květnice"
+			},
+			{
+				"src": "img/sights/kvetnice/18.jpg",
+				"caption": "Podzimní pohled do květnice"
+			},
+			{
+				"src": "img/sights/kvetnice/19.jpg",
+				"caption": "Podzimní pohled do květnice"
+			},
+			{
+				"src": "img/sights/kvetnice/20.jpg",
+				"caption": "Zimní detail"
+			},
+			{
+				"src": "img/sights/kvetnice/21.jpg",
+				"caption": "Zimní pohled do květnice"
+			},
+			{
+				"src": "img/sights/kvetnice/22.jpg",
+				"caption": "Sousoší zápasníků v zimně"
+			},
+			{
+				"src": "img/sights/kvetnice/23.jpg",
+				"caption": "Detail sousoší v zimmním období"
+			},
+			{
+				"src": "img/sights/kvetnice/24.jpg",
+				"caption": "Děti v květnici"
+			},
+			{
+				"src": "img/sights/kvetnice/25.jpg",
+				"caption": "Vzdělávací program v květnici"
+			},
+			{
+				"src": "img/sights/kvetnice/26.jpg",
+				"caption": "Historický ohňostroj"
 			}
 		],
 		"video" : [
@@ -182,11 +522,47 @@
 		"images" : [
 			{
 				"src": "img/sights/lvi-fontana/01.jpg",
-				"caption": "caption 1"
+				"caption": "Lví fontána na historické rytině"
 			},
 			{
 				"src": "img/sights/lvi-fontana/02.jpg",
-				"caption": "caption 2"
+				"caption": "Lví fontána"
+			},
+			{
+				"src": "img/sights/lvi-fontana/03.jpg",
+				"caption": "Lví fontána"
+			},
+			{
+				"src": "img/sights/lvi-fontana/04.jpg",
+				"caption": "Lví fontána s Rotundou"
+			},
+			{
+				"src": "img/sights/lvi-fontana/05.jpg",
+				"caption": "Lví fontána"
+			},
+			{
+				"src": "img/sights/lvi-fontana/06.jpg",
+				"caption": "Detail fontány"
+			},
+			{
+				"src": "img/sights/lvi-fontana/07.jpg",
+				"caption": "Lví fontána v zimě"
+			},
+			{
+				"src": "img/sights/lvi-fontana/08.jpg",
+				"caption": "Detail fontány"
+			},
+			{
+				"src": "img/sights/lvi-fontana/09.jpg",
+				"caption": "Detail fontány"
+			},
+			{
+				"src": "img/sights/lvi-fontana/10.jpg",
+				"caption": "Vzdělávací program pro děti"
+			},
+			{
+				"src": "img/sights/lvi-fontana/11.jpg",
+				"caption": "Snímek z barokního festivalu"
 			}
 		],
 		"video" : [
@@ -204,7 +580,47 @@
 		"images" : [
 			{
 				"src": "img/sights/fontana-tritonu/01.jpg",
-				"caption": "caption 1"
+				"caption": "Fontána Tritonů na historické rytině"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/02.jpg",
+				"caption": "Lví fontána na historické rytině"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/03.jpg",
+				"caption": "Vrchol fontány"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/04.jpg",
+				"caption": "Fontána Tritonů"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/05.jpg",
+				"caption": "Fontána Tritonů"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/06.jpg",
+				"caption": "Detail"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/07.jpg",
+				"caption": "Fontána Tritonů"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/08.jpg",
+				"caption": "Detail"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/09.jpg",
+				"caption": "Vrchol fontány"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/10.jpg",
+				"caption": "Zimní detail"
+			},
+			{
+				"src": "img/sights/fontana-tritonu/11.jpg",
+				"caption": "Snímek z programu pro děti"
 			}
 		],
 		"video" : [
@@ -226,15 +642,67 @@
 		"images" : [
 			{
 				"src": "img/sights/rotunda/01.jpg",
-				"caption": "caption 1"
+				"caption": "Rotunda na historické rytině"
 			},
 			{
 				"src": "img/sights/rotunda/02.jpg",
-				"caption": "caption 2"
+				"caption": "Rotunda"
 			},
 			{
 				"src": "img/sights/rotunda/03.jpg",
-				"caption": "caption 3"
+				"caption": "Rotunda"
+			},
+			{
+				"src": "img/sights/rotunda/04.jpg",
+				"caption": "Rotunda"
+			},
+			{
+				"src": "img/sights/rotunda/05.jpg",
+				"caption": "Rotunda"
+			},
+			{
+				"src": "img/sights/rotunda/06.jpg",
+				"caption": "Rotunda"
+			},
+			{
+				"src": "img/sights/rotunda/07.jpg",
+				"caption": "Rotunda"
+			},
+			{
+				"src": "img/sights/rotunda/08.jpg",
+				"caption": "Rotunda s divadelní scénou u příležitosti barokního festivalu"
+			},
+			{
+				"src": "img/sights/rotunda/09.jpg",
+				"caption": "Interiér Rotundy"
+			},
+			{
+				"src": "img/sights/rotunda/10.jpg",
+				"caption": "Kopule Rotundy"
+			},
+			{
+				"src": "img/sights/rotunda/11.jpg",
+				"caption": "Historická rytina umělé jeskyně"
+			},
+			{
+				"src": "img/sights/rotunda/12.jpg",
+				"caption": "Umělá jeskyně"
+			},
+			{
+				"src": "img/sights/rotunda/13.jpg",
+				"caption": "Historická rytina vodního stroje"
+			},
+			{
+				"src": "img/sights/rotunda/14.jpg",
+				"caption": "Výzdoba Rotundy u příležitosti barokního festivalu"
+			},
+			{
+				"src": "img/sights/rotunda/15.jpg",
+				"caption": "Taneční vystoupení v rámci barokního festivalu"
+			},
+			{
+				"src": "img/sights/rotunda/16.jpg",
+				"caption": "Foucaultovo kyvadlo"
 			}			
 		],
 		"video" : [
@@ -253,7 +721,39 @@
 		"images" : [
 			{
 				"src": "img/sights/bludiste/01.jpg",
-				"caption": "caption 1"
+				"caption": "Výřez z historické rytiny s bludišti"
+			},
+			{
+				"src": "img/sights/bludiste/02.jpg",
+				"caption": "Pohled do bludiště s Rotundou v pozadí"
+			},
+			{
+				"src": "img/sights/bludiste/03.jpg",
+				"caption": "Čtvercové bludiště"
+			},
+			{
+				"src": "img/sights/bludiste/04.jpg",
+				"caption": "Kruhové bludiště"
+			},
+			{
+				"src": "img/sights/bludiste/05.jpg",
+				"caption": "Pohled z kopule Rotundy"
+			},
+			{
+				"src": "img/sights/bludiste/06.jpg",
+				"caption": "Bažant v bludišti"
+			},
+			{
+				"src": "img/sights/bludiste/07.jpg",
+				"caption": "Zimní snímek z bludiště"
+			},
+			{
+				"src": "img/sights/bludiste/08.jpg",
+				"caption": "Děti v bludišti"
+			},
+			{
+				"src": "img/sights/bludiste/09.jpg",
+				"caption": "Snímek z barokního festivalu"
 			}
 		],
 		"video" : [
@@ -275,15 +775,51 @@
 		"images" : [
 			{
 				"src": "img/sights/tvarovane-steny/01.jpg",
-				"caption": "caption 1"
+				"caption": "Historická rytina s tvarovanými stěnami"
 			},
 			{
 				"src": "img/sights/tvarovane-steny/02.jpg",
-				"caption": "caption 2"
+				"caption": "Pohled k Rotundě na podzim"
 			},
 			{
 				"src": "img/sights/tvarovane-steny/03.jpg",
-				"caption": "caption 3"
+				"caption": "Pohled k Rotundě v zimě"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/04.jpg",
+				"caption": "Loubí"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/05.jpg",
+				"caption": "Podzimní pohled do loubí"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/06.jpg",
+				"caption": "Zimní pohled do loubí"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/07.jpg",
+				"caption": "Historická rytina s vyobrazením způsobu tvarování zelených stěn"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/08.jpg",
+				"caption": "Tvarování loubí"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/09.jpg",
+				"caption": "Tvarování zelených stěn"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/10.jpg",
+				"caption": "Letní ořez stěn"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/11.jpg",
+				"caption": "Tvarování figury"
+			},
+			{
+				"src": "img/sights/tvarovane-steny/12.jpg",
+				"caption": "Snímek z barokního festivalu"
 			}
 		],
 		"video" : [
@@ -301,11 +837,27 @@
 		"images" : [
 			{
 				"src": "img/sights/stepnice/01.jpg",
-				"caption": "caption 1"
+				"caption": "Detail historické rytiny se štěpnicí"
 			},
 			{
 				"src": "img/sights/stepnice/02.jpg",
-				"caption": "caption 2"
+				"caption": "Detail ze štěpnice"
+			},
+			{
+				"src": "img/sights/stepnice/03.jpg",
+				"caption": "Pohled do štěpnice"
+			},
+			{
+				"src": "img/sights/stepnice/04.jpg",
+				"caption": "Plocha štěpnice"
+			},
+			{
+				"src": "img/sights/stepnice/05.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/stepnice/06.jpg",
+				"caption": "Pohled směrem ke špěpnici v době obnovy zahrady"
 			}
 		],
 		"video" : [
@@ -324,11 +876,67 @@
 		"images" : [
 			{
 				"src": "img/sights/pstruzi-rybniky/01.jpg",
-				"caption": "caption 1"
+				"caption": "Historická rytina Pstružího rybníku"
 			},
 			{
 				"src": "img/sights/pstruzi-rybniky/02.jpg",
-				"caption": "caption 2"
+				"caption": "Pstruží rybník"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/03.jpg",
+				"caption": "Pstruží rybník"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/04.jpg",
+				"caption": "Pstruží rybník"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/05.jpg",
+				"caption": "Pstruží rybník"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/06.jpg",
+				"caption": "Vodotrysk ve Pstružím rybníku"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/07.jpg",
+				"caption": "Dřevěný plot vedoucí k rybníku"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/08.jpg",
+				"caption": "Okrasné ryby"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/09.jpg",
+				"caption": "Historická rytina Pstružího rybníku s Jahodovým kopečkem v pozadí"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/10.jpg",
+				"caption": "Pstruží rybník s Jahodovým kopečkem v pozadí"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/11.jpg",
+				"caption": "Pstruží rybník v zimě"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/12.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/13.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/14.jpg",
+				"caption": "Pstruží rybník před obnovou"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/15.jpg",
+				"caption": "Obnova Pstružích rybníků"
+			},
+			{
+				"src": "img/sights/pstruzi-rybniky/16.jpg",
+				"caption": "Obnova Pstružích rybníků"
 			}
 		],
 		"video" : [
@@ -347,7 +955,27 @@
 		"images" : [
 			{
 				"src": "img/sights/jahodove-kopecky/01.jpg",
-				"caption": "caption 1"
+				"caption": "Historická rytina s Jahodovým kopečkem, částí zahrady a výhledem na město"
+			},
+			{
+				"src": "img/sights/jahodove-kopecky/02.jpg",
+				"caption": "Jahodový kopeček"
+			},
+			{
+				"src": "img/sights/jahodove-kopecky/03.jpg",
+				"caption": "Jahodový kopeček"
+			},
+			{
+				"src": "img/sights/jahodove-kopecky/04.jpg",
+				"caption": "Jahodový kopeček"
+			},
+			{
+				"src": "img/sights/jahodove-kopecky/05.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/jahodove-kopecky/06.jpg",
+				"caption": "Snímek z barokního festivalu"
 			}
 		],
 		"video" : [
@@ -365,7 +993,23 @@
 		"images" : [
 			{
 				"src": "img/sights/kuzelna/01.jpg",
-				"caption": "caption 1"
+				"caption": "Historická rytina s vyobrazením kuželny"
+			},
+			{
+				"src": "img/sights/kuzelna/02.jpg",
+				"caption": "Kuželna Květné zahrady"
+			},
+			{
+				"src": "img/sights/kuzelna/03.jpg",
+				"caption": "Pohled z kuželny k Rotundě"
+			},
+			{
+				"src": "img/sights/kuzelna/04.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/kuzelna/05.jpg",
+				"caption": "Vzdělávací program"
 			}
 		],
 		"video" : [
@@ -385,11 +1029,55 @@
 		"images" : [
 			{
 				"src": "img/sights/ptacnice/01.jpg",
-				"caption": "caption 1"
+				"caption": "Ptáčnice na historické rytině"
 			},
 			{
 				"src": "img/sights/ptacnice/02.jpg",
-				"caption": "caption 2"
+				"caption": "Ptáčnice Květné zahrady"
+			},
+			{
+				"src": "img/sights/ptacnice/03.jpg",
+				"caption": "Ptáčnice Květné zahrady"
+			},
+			{
+				"src": "img/sights/ptacnice/04.jpg",
+				"caption": "Ptáčnice Květné zahrady"
+			},
+			{
+				"src": "img/sights/ptacnice/05.jpg",
+				"caption": "Ptáčnice Květné zahrady"
+			},
+			{
+				"src": "img/sights/ptacnice/06.jpg",
+				"caption": "Holubi ve voliéře"
+			},
+			{
+				"src": "img/sights/ptacnice/07.jpg",
+				"caption": "Pohled z ptáčnice směrem k Rotundě"
+			},
+			{
+				"src": "img/sights/ptacnice/08.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/ptacnice/09.jpg",
+				"caption": "Divadelní představení u ptáčnice"
+			},
+			{
+				"src": "img/sights/ptacnice/10.jpg",
+				"caption": "Ptáčnice před zahájením obnovy"
+			},
+			{
+				"src": "img/sights/ptacnice/11.jpg",
+				"caption": "Ptáčnice v době obnovy"
+			},
+			{
+				"src": "img/sights/ptacnice/12.jpg",
+				"caption": "Ptáčnice v době obnovy"
+			},
+			{
+				"src": "img/sights/ptacnice/13.jpg",
+				"caption": "Ptáčnice v závěrečné fázi obnovy"
 			}
 		],
 		"video" : [
@@ -408,20 +1096,84 @@
 		],
 		"images" : [
 			{
+				"src": "img/sights/kralici-kopec/00.jpg",
+				"caption": "Historická rytina králičího kopce"
+			},
+			{
 				"src": "img/sights/kralici-kopec/01.jpg",
-				"caption": "caption 1"
+				"caption": "Králičí kopec"
 			},
 			{
 				"src": "img/sights/kralici-kopec/02.jpg",
-				"caption": "caption 2"
+				"caption": "Část zahrady s Králičím kopcem"
 			},
 			{
 				"src": "img/sights/kralici-kopec/03.jpg",
-				"caption": "caption 3"
+				"caption": "Socha bohyně Diany"
 			},
 			{
 				"src": "img/sights/kralici-kopec/04.jpg",
-				"caption": "caption 4"
+				"caption": "Socha bohyně Diany v zimě"
+			},
+			{
+				"src": "img/sights/kralici-kopec/05.jpg",
+				"caption": "Průhled ke Králičímu kopci z jahodového kopečku"
+			},
+			{
+				"src": "img/sights/kralici-kopec/06.jpg",
+				"caption": "Králičí kopec"
+			},
+			{
+				"src": "img/sights/kralici-kopec/07.jpg",
+				"caption": "Jarní přírustek"
+			},
+			{
+				"src": "img/sights/kralici-kopec/08.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/kralici-kopec/09.jpg",
+				"caption": "Prohlídka zahrady s vrchním zahradníkem"
+			},
+			{
+				"src": "img/sights/kralici-kopec/10.jpg",
+				"caption": "Archeologicky odkryté základy králičího kopce"
+			},
+			{
+				"src": "img/sights/kralici-kopec/11.jpg",
+				"caption": "Zdění konstrukce kopce"
+			},
+			{
+				"src": "img/sights/kralici-kopec/12.jpg",
+				"caption": "Práce na výstavbě kopce"
+			},
+			{
+				"src": "img/sights/kralici-kopec/13.jpg",
+				"caption": "Zdění konstrukce kopce"
+			},
+			{
+				"src": "img/sights/kralici-kopec/14.jpg",
+				"caption": "Zaklenutí kopce"
+			},
+			{
+				"src": "img/sights/kralici-kopec/15.jpg",
+				"caption": "Klenba zděné konstrukce Králičího kopce"
+			},
+			{
+				"src": "img/sights/kralici-kopec/16.jpg",
+				"caption": "Opatření kopce norami a výpletem z větví"
+			},
+			{
+				"src": "img/sights/kralici-kopec/17.jpg",
+				"caption": "Pokrytí kopce hlínou"
+			},
+			{
+				"src": "img/sights/kralici-kopec/18.jpg",
+				"caption": "Úpravy okolí kopce"
+			},
+			{
+				"src": "img/sights/kralici-kopec/19.jpg",
+				"caption": "Rašící trávník"
 			}
 		],
 		"video" : [
@@ -439,7 +1191,59 @@
 		"images" : [
 			{
 				"src": "img/sights/zahradnictvi/01.jpg",
-				"caption": "caption 1"
+				"caption": "Historická rytina naniklé bažantnice"
+			},
+			{
+				"src": "img/sights/zahradnictvi/02.jpg",
+				"caption": "Pohled do zahradnictví"
+			},
+			{
+				"src": "img/sights/zahradnictvi/03.jpg",
+				"caption": "Pohled do zahradnictví"
+			},
+			{
+				"src": "img/sights/zahradnictvi/04.jpg",
+				"caption": "Pěstování květin k řezu"
+			},
+			{
+				"src": "img/sights/zahradnictvi/05.jpg",
+				"caption": "Velký a Produční skleník"
+			},
+			{
+				"src": "img/sights/zahradnictvi/06.jpg",
+				"caption": "Květiny"
+			},
+			{
+				"src": "img/sights/zahradnictvi/07.jpg",
+				"caption": "Okrasný zeleninový záhon"
+			},
+			{
+				"src": "img/sights/zahradnictvi/08.jpg",
+				"caption": "Výsadba v zahradnictví"
+			},
+			{
+				"src": "img/sights/zahradnictvi/09.jpg",
+				"caption": "Produkční skleník"
+			},
+			{
+				"src": "img/sights/zahradnictvi/10.jpg",
+				"caption": "Pohled do zahradnictví před obnovou"
+			},
+			{
+				"src": "img/sights/zahradnictvi/11.jpg",
+				"caption": "Výstavba Produkčního skleníku"
+			},
+			{
+				"src": "img/sights/zahradnictvi/12.jpg",
+				"caption": "Výstavba nového zahradnictví"
+			},
+			{
+				"src": "img/sights/zahradnictvi/13.jpg",
+				"caption": "Výstavba Produkčního skleníku"
+			},
+			{
+				"src": "img/sights/zahradnictvi/14.jpg",
+				"caption": "Výstavba produčního skleníku"
 			}
 		],
 		"video" : [
@@ -459,11 +1263,75 @@
 		"images" : [
 			{
 				"src": "img/sights/velky-sklenik/01.jpg",
-				"caption": "caption 1"
+				"caption": "Velký skleník"
 			},
 			{
 				"src": "img/sights/velky-sklenik/02.jpg",
-				"caption": "caption 2"
+				"caption": "Velký skleník"
+			},
+			{
+				"src": "img/sights/velky-sklenik/03.jpg",
+				"caption": "Detail fasády"
+			},
+			{
+				"src": "img/sights/velky-sklenik/04.jpg",
+				"caption": "Historický snímek instalace zimní zahrady"
+			},
+			{
+				"src": "img/sights/velky-sklenik/05.jpg",
+				"caption": "Instalace zimní zahrady"
+			},
+			{
+				"src": "img/sights/velky-sklenik/06.jpg",
+				"caption": "Instalace zimní zahrady"
+			},
+			{
+				"src": "img/sights/velky-sklenik/07.jpg",
+				"caption": "Detail stropní výmalby"
+			},
+			{
+				"src": "img/sights/velky-sklenik/08.jpg",
+				"caption": "Skupina citrusů zimovaných ve skleníku"
+			},
+			{
+				"src": "img/sights/velky-sklenik/09.jpg",
+				"caption": "Skupina citrusů zimovaných ve skleníku"
+			},
+			{
+				"src": "img/sights/velky-sklenik/10.jpg",
+				"caption": "Stěhování rostlin v nádobách"
+			},
+			{
+				"src": "img/sights/velky-sklenik/11.jpg",
+				"caption": "Jarní instalace ve skleníku"
+			},
+			{
+				"src": "img/sights/velky-sklenik/12.jpg",
+				"caption": "Jarní instalace ve skleníku"
+			},
+			{
+				"src": "img/sights/velky-sklenik/13.jpg",
+				"caption": "Snímek z barokního festivalu"
+			},
+			{
+				"src": "img/sights/velky-sklenik/14.jpg",
+				"caption": "Koncert v rámci barokního festivalu"
+			},
+			{
+				"src": "img/sights/velky-sklenik/15.jpg",
+				"caption": "Slavnostní otevření Květné zahrady po rekonstrukci"
+			},
+			{
+				"src": "img/sights/velky-sklenik/16.jpg",
+				"caption": "Velký skleník v době obnovy"
+			},
+			{
+				"src": "img/sights/velky-sklenik/17.jpg",
+				"caption": "Velký skleník v době obnovy"
+			},
+			{
+				"src": "img/sights/velky-sklenik/18.jpg",
+				"caption": "Práce v interiéru skleníku"
 			}
 		],
 		"video" : [

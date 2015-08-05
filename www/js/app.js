@@ -41,6 +41,11 @@ ionicApp.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvide
 			templateUrl: 'templates/info-detail.html',
 			controller: 'InfoDetailCtrl'
 		})
+		.state('comics', {
+			url: '/komiks',
+			templateUrl: 'templates/comics.html',
+			controller: 'ComicsCtrl'
+		})
 		.state('dictionary', {
 			url: '/slovnicek',
 			templateUrl: 'templates/dictionary.html',
@@ -168,28 +173,29 @@ ionicApp.controller('SightsCtrl', function($scope, sightsFactory) {
 ionicApp.controller('SightCtrl', function($scope, $stateParams, $ionicModal, sightsFactory) {
 	
 	sightsFactory.find($stateParams.sightid, function(sight) {
-		console.log($stateParams.sightid);
+		//console.log($stateParams.sightid);
 		$scope.sight = sight;
 		$scope.sight.sectionImage = sight.images[0].src;
-		console.log($scope.sight);
+		//console.log($scope.sight);
 	});
 	
 	sightsFactory.findPrev($stateParams.sightid, function(sightPrev) {
 		$scope.prevSight = sightPrev;
-		console.log($scope.prevSight);
+		//console.log($scope.prevSight);
 	});
 	
 	sightsFactory.findNext($stateParams.sightid, function(sightNext) {
 		$scope.nextSight = sightNext;
-		console.log($scope.nextSight);
+		//console.log($scope.nextSight);
 	});
 	
-	$scope.showGallery = function() {
+	$scope.showModal = function(modalName) {
 		//$scope.activeSlide = index;
-		$scope.showModal('templates/modal-gallery.html');
+		var modalPath = 'templates/modal-' + modalName + '.html';
+		$scope.openModal(modalPath);
 	};
 	
-	$scope.showModal = function(template) {
+	$scope.openModal = function(template) {
 		$ionicModal.fromTemplateUrl(template, {
 			scope: $scope,
 			animation: 'slide-in-up'
@@ -236,6 +242,14 @@ ionicApp.controller('DictionaryCtrl', function($scope, $http) {
 		console.log('error fetching data from json');
 	});
 	
+});
+
+
+
+ionicApp.controller('ComicsCtrl', function($scope) { 
+
+	
+
 });
 
 

@@ -1,28 +1,23 @@
 <ion-content class="homepage">
-	<div class="content" ng-repeat="content in homepage">
-		<h1>{{content.name}}</h1>
+	<div class="content home">
+		<h1>{{homepage.name}}</h1>
 		<div class="welcome-text">
-			<p>{{content.body}}</p>
+			<p>{{homepage.body.join('\n')}}</p>
 		</div>
-	</div>
-	
-	<div class="main-menu-container">
-		<span class="link">
-		<a href="#/">
-			<i class="icon ion-home"></i>
-		</a>
-		</span>
-		
-		<span class="link">
-		<a href="#/informace">
-			<i class="icon ion-star"></i>
-		</a>
-		</span>
-		
-		<span class="link">
-		<a href="#/mapa-zahrady">
-			<i class="icon ion-gear-a"></i>
-		</a>
-		</span>
+
+		<div class="main-menu-container">
+			<span class="link map">
+				<a href="#/mapa-zahrady"><span class="azz-map"></span><!--Mapa--></a>
+			</span>
+			
+			<span class="link sights">
+				<a href="#/pamatky"><span class="azz-objects"></span><!--Památky--></a>
+			</span>
+			
+			<span class="link info ">
+				<a href="#/informace"><span class="azz-info"></span><!--Informace--></a>
+			</span>
+		</div>
+        
 	</div>
 </ion-content>

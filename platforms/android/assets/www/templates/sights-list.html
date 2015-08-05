@@ -1,0 +1,22 @@
+<div class="sidebar">
+	<h1>Květná zahrada</h1>
+	
+	<div class="nav-bar">
+		<a href="#/mapa-zahrady" class="button"><span class="azz-map"></span></a>
+		<a href="#/" class="button back"><span class="azz-back"></span></a>
+	</div>
+</div>
+
+<ion-content>
+	<div class="content">
+		<div class="list">
+			<div class="item" ng-repeat="sight in sights">
+				<a href="#/pamatky/{{sight.id}}">
+                <img ng-src="{{sight.images[0].src}}" />
+				<span>{{sight.name}}
+                </span>
+                </a>
+			</div>
+		</div>
+	</div>
+</ion-content>

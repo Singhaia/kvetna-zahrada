@@ -1,0 +1,190 @@
+[
+
+	{
+		"url": "arcibiskup",
+		"name": "Arcibiskup",
+		"body": [
+			"Arcibiskup je označení biskupa se zvláštním postavením. Podléhají mu další biskupové. Například olomoucké arcibiskupství je dnes nadřazeno biskupství brněnskému a ostravskému."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "arkada",
+		"name": "Arkáda",
+		"body": [
+			"Arkáda je řada oblouků oddělených od sebe sloupy."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "biskup",
+		"name": "Biskup",
+		"body": [
+			"Biskup je správcem a ochráncem křesťanů na svěřeném území. Stojí včele biskupství. Jeho autorita se vztahuje k významu apoštolů Ježíše Krista."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "bosket",
+		"name": "Bosket",
+		"body": [
+			"Bosket je skupina hustě vysázených, geometricky vytvarovaných stromů."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "broderie",
+		"name": "Broderie",
+		"body": [
+			"Slovo pochází z francouzštiny a znamená výšivka. Je to umělecky upravený, ozdobný záhon, který svým tvarem připomíná výšivku."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "buxus",
+		"name": "Buxus",
+		"body": [
+			"Buxus je stále zelený keř nebo stromek s drobnými listy, pocházející ze Středomoří. V zahradě je tvarován do podoby ozdobných záhonů."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "kolonada",
+		"name": "Kolonáda",
+		"body": [
+			"Kolonáda je krytá chodba z jedné nebo dvou stran tvořená sloupy. V Květné zahradě je tak označována stavba, která v zahradě nahrazuje budovu zámku."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "kvetnice",
+		"name": "Květnice",
+		"body": [
+			"Květnice je část zahrady dělená sítí cest na boskety."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "libosad",
+		"name": "Libosad",
+		"body": [
+			"Tímto slovem byla dříve nazývána Květná zahrada. Můžeme ho přeložit jako \"zahrada k potěšení člověka\"."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "oranzerie",
+		"name": "Oranžérie",
+		"body": [
+			"Oranžérie je druh zděné stavby, která slouží k přezimování nebo pěstování teplomilných rostlin."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "osa",
+		"name": "Osa",
+		"body": [
+			"V zahradním umění je osa přímkou souměrnosti zahrady nebo její části."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "parter",
+		"name": "Parter",
+		"body": [
+			"Parter je plochá, rovinná část zahrady před průčelím zámku pokrytá pečlivě upravenými záhony. V Květné zahradě navazuje na kolonádu, která zde zámek nahrazuje."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "stepnice",
+		"name": "Štěpnice",
+		"body": [
+			"štěpnice je plocha zahrady osázená ovocnými stromy."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "stuk",
+		"name": "Štuk",
+		"body": [
+			"štuk je směs z jemného písku, vápna, případně sádry, která se užívá na svrchní vrstvu omítky. Umožňuje vytvářet pomocí nástrojů plastické ozdoby."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "tvarovane-steny",
+		"name": "Tvarované stěny",
+		"body": [
+			"Tvarované stěny jsou pravidelně střižené stromy, ze kterých jsou utvářeny boskety. Umocňují pohled na architekturu."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "vitraz",
+		"name": "Vitráž",
+		"body": [
+			"Vitráž je ozdobná skleněná výplň oken. Jednotlivé barevné části ze skla se vkládají do olověných rámečků."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	},
+	
+	{
+		"url": "voliera",
+		"name": "Voliéra",
+		"body": [
+			"Voliéra je prostorná klec pro chov ptáků."
+		],
+		"image": [
+			"img/info/dictionary/sign.jpg"
+		]
+	}
+
+]
