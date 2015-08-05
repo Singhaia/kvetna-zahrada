@@ -7,7 +7,10 @@
 			"Arcibiskup je označení biskupa se zvláštním postavením. Podléhají mu další biskupové. Například olomoucké arcibiskupství je dnes nadřazeno biskupství brněnskému a ostravskému."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/01.jpg",
+				"caption": "Arcibiskup"
+			}
 		]
 	},
 	
@@ -18,7 +21,10 @@
 			"Arkáda je řada oblouků oddělených od sebe sloupy."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/02.jpg",
+				"caption": "Arkáda"
+			}
 		]
 	},
 	
@@ -29,7 +35,10 @@
 			"Biskup je správcem a ochráncem křesťanů na svěřeném území. Stojí včele biskupství. Jeho autorita se vztahuje k významu apoštolů Ježíše Krista."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/03.jpg",
+				"caption": "Biskup"
+			}
 		]
 	},
 	
@@ -40,7 +49,10 @@
 			"Bosket je skupina hustě vysázených, geometricky vytvarovaných stromů."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/04.jpg",
+				"caption": "Bosket"
+			}
 		]
 	},
 	
@@ -51,7 +63,10 @@
 			"Slovo pochází z francouzštiny a znamená výšivka. Je to umělecky upravený, ozdobný záhon, který svým tvarem připomíná výšivku."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/05.jpg",
+				"caption": "Broderie"
+			}
 		]
 	},
 	
@@ -62,7 +77,10 @@
 			"Buxus je stále zelený keř nebo stromek s drobnými listy, pocházející ze Středomoří. V zahradě je tvarován do podoby ozdobných záhonů."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/06.jpg",
+				"caption": "Buxus"
+			}
 		]
 	},
 	
@@ -73,7 +91,10 @@
 			"Kolonáda je krytá chodba z jedné nebo dvou stran tvořená sloupy. V Květné zahradě je tak označována stavba, která v zahradě nahrazuje budovu zámku."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/07.jpg",
+				"caption": "Kolonáda"
+			}
 		]
 	},
 	
@@ -84,7 +105,10 @@
 			"Květnice je část zahrady dělená sítí cest na boskety."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/08.jpg",
+				"caption": "Květnice"
+			}
 		]
 	},
 	
@@ -95,7 +119,10 @@
 			"Tímto slovem byla dříve nazývána Květná zahrada. Můžeme ho přeložit jako \"zahrada k potěšení člověka\"."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/09.jpg",
+				"caption": "Libosad"
+			}
 		]
 	},
 	
@@ -106,7 +133,10 @@
 			"Oranžérie je druh zděné stavby, která slouží k přezimování nebo pěstování teplomilných rostlin."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/10.jpg",
+				"caption": "Oranžérie"
+			}
 		]
 	},
 	
@@ -117,7 +147,10 @@
 			"V zahradním umění je osa přímkou souměrnosti zahrady nebo její části."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/11.jpg",
+				"caption": "Osa"
+			}
 		]
 	},
 	
@@ -128,7 +161,10 @@
 			"Parter je plochá, rovinná část zahrady před průčelím zámku pokrytá pečlivě upravenými záhony. V Květné zahradě navazuje na kolonádu, která zde zámek nahrazuje."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/12.jpg",
+				"caption": "Parter"
+			}
 		]
 	},
 	
@@ -139,7 +175,10 @@
 			"štěpnice je plocha zahrady osázená ovocnými stromy."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/13.jpg",
+				"caption": "Štěpnice"
+			}
 		]
 	},
 	
@@ -150,7 +189,10 @@
 			"štuk je směs z jemného písku, vápna, případně sádry, která se užívá na svrchní vrstvu omítky. Umožňuje vytvářet pomocí nástrojů plastické ozdoby."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/14.jpg",
+				"caption": "Štuk"
+			}
 		]
 	},
 	
@@ -161,7 +203,10 @@
 			"Tvarované stěny jsou pravidelně střižené stromy, ze kterých jsou utvářeny boskety. Umocňují pohled na architekturu."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/15.jpg",
+				"caption": "Tvarované stěny"
+			}
 		]
 	},
 	
@@ -172,7 +217,10 @@
 			"Vitráž je ozdobná skleněná výplň oken. Jednotlivé barevné části ze skla se vkládají do olověných rámečků."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/16.jpg",
+				"caption": "Vitráž"
+			}
 		]
 	},
 	
@@ -183,7 +231,10 @@
 			"Voliéra je prostorná klec pro chov ptáků."
 		],
 		"image": [
-			"img/info/dictionary/sign.jpg"
+			{
+				"src": "img/info/dictionary/17.jpg",
+				"caption": "Voliéra"
+			}
 		]
 	}
 

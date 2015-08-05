@@ -5,23 +5,20 @@
 	<a href="#/informace" class="button back"><span class="azz-back"></span></a> 
 	</div>
 </div>
+
 <div class="content detail dic">
-	<!--	<div class="controls">
-			<a ng-if="prevInfo.id" href="#/informace/{{prevInfo.id}}">{{prevInfo.name}}</a>
-			<a ng-if="nextInfo.id"  href="#/informace/{{nextInfo.id}}">{{nextInfo.name}}</a>
-		</div>-->
-<ion-content>
-<h2>Slovníček</h2>
-		
+	<ion-content>
+		<h2>Slovníček</h2>
+			
 		<div class="item" ng-repeat="item in dictionary">
 			<div class="image">
-				<img ng-src="{{item.image[0]}}" />
+				<img ng-src="{{item.image[0].src}}" />
 			</div>
 			<div class="text">
 				<h3>{{item.name}}</h3>
 				<p ng-repeat="p in item.body">{{p}}</p>
 			</div>
 		</div>
-
-</ion-content>
+	
+	</ion-content>
 </div>
