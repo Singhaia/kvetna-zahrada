@@ -106,9 +106,10 @@ display:block;
 
 .sidebar .nav-bar { position:absolute; bottom:50px}
 
-.nav-bar .button { width:80px; height:80px; background-color:#fff; border-radius:50%; line-height:85px; text-align:center; border:none; margin-right:40px; color:#278639; font-size:52px}
+.nav-bar .button { width:90px; height:90px; background-color:#fff; border-radius:50%; line-height:95px; text-align:center; border:none; color:#278639; font-size:58px; margin:20px 23% 0;}
 
-.nav-bar .button.back { font-size:38px}
+.nav-bar .button.back { font-size:42px}
+.nav-bar .azz-objects { font-size:58px; line-height:85px;}
 
 
 /* MENU OBJEKTU */
@@ -230,6 +231,7 @@ display:block;
 }
 
 .content.info a { height:14.28%; width:100%; display:block; color:#278639; font-size:36px; font-family: 'playfair'; font-weight: normal; text-decoration:none;text-align:left; border-bottom:1px solid #ccc; line-height:90px; }
+.content.info a:last-child { border:none}
 
 .content.detail.inf h2{ margin:50px 0px }
 
