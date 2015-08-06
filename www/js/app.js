@@ -211,20 +211,15 @@ ionicApp.controller('SightsCtrl', function($scope, sightsFactory) {
 ionicApp.controller('SightCtrl', function($scope, $stateParams, $ionicModal, sightsFactory) {
 	
 	sightsFactory.find($stateParams.sightid, function(sight) {
-		//console.log($stateParams.sightid);
 		$scope.sight = sight;
-		//$scope.sight.sectionImage = sight.images[1].src;
-		//console.log($scope.sight);
 	});
 	
 	sightsFactory.findPrev($stateParams.sightid, function(sightPrev) {
 		$scope.prevSight = sightPrev;
-		//console.log($scope.prevSight);
 	});
 	
 	sightsFactory.findNext($stateParams.sightid, function(sightNext) {
 		$scope.nextSight = sightNext;
-		//console.log($scope.nextSight);
 	});
 	
 	$scope.showModal = function(modalName) {
