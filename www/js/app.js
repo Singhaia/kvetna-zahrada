@@ -297,11 +297,14 @@ ionicApp.controller('DictionaryCtrl', function($scope, $http) {
 });
 
 
-
-ionicApp.controller('ComicsCtrl', function($scope) { 
-
+ionicApp.controller('ComicsCtrl', function($scope, $http) {
 	
-
+	$http.get('data/comics.json').success(function(data) {
+		$scope.items = data;
+	}).error(function() {
+		console.log("error fetching data from json");
+	});
+	
 });
 
 
