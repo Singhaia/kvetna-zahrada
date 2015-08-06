@@ -213,7 +213,7 @@ ionicApp.controller('SightCtrl', function($scope, $stateParams, $ionicModal, sig
 	sightsFactory.find($stateParams.sightid, function(sight) {
 		//console.log($stateParams.sightid);
 		$scope.sight = sight;
-		$scope.sight.sectionImage = sight.images[1].src;
+		//$scope.sight.sectionImage = sight.images[1].src;
 		//console.log($scope.sight);
 	});
 	
