@@ -253,8 +253,12 @@ display:block;
 .content.info a { height:14.28%; width:100%; display:block; color:#278639; font-size:36px; font-family: 'playfair'; font-weight: normal; text-decoration:none;text-align:left; border-bottom:1px solid #ccc; line-height:90px; }
 .content.info a:last-child { border:none}
 
-.content.detail.inf h2, .content.detail.dic h2{ margin-top:50px; margin-bottom:50px }
+.content.detail.inf h2, .content.detail.dic h2, .content.detail.comics h2{ margin-top:50px; margin-bottom:50px }
 
+/*  COMICS */
+
+.content.detail.comics img { margin:20px 0px; max-width:680px}
+.content.detail.comics img:last-child { margin-bottom:120px}
 
 /* INFO SLOVNICEK */
 
