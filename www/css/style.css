@@ -180,6 +180,7 @@ display:block;
 
 
 .modal.gallery .azz-close, .modal.video .azz-close {height:80px; width:80px; display:block; line-height:85px; background-color:#000; border-radius:50%; color:#fff; font-size:52px; display:inline-block; margin:0px }
+.modal.video .azz-close { background-color:rgba(0,0,0,.6) }
 
 .modal.video .video-player { margin:40px 0px;  }
 
