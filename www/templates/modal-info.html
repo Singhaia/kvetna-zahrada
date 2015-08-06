@@ -3,9 +3,10 @@
 	<ion-slide-box on-slide-change="slideChange(index)" show-pager="false" active-slide="activeSlide">
 		<ion-slide ng-repeat="img in info.images">
 			<img ng-src="{{img.src}}" />
-			<div class="caption">{{img.caption}}</div>
+			  <div class="caption">{{img.caption}}</div>
 		</ion-slide>
+      
 	</ion-slide-box>
-	
-	<span class="close-modal" ng-click="closeModal()">close</span>
+
+	<span class="close-modal" ng-click="closeModal()"><span class="azz-close"></span></span>
 </div>
