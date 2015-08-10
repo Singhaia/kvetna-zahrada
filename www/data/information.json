@@ -181,35 +181,8 @@
 			"Služba samoobslužného průvodce Květnou zahradou pro neslyšící byla vytvořena díky poskytnuté dotaci Ministerstva kultury České republiky z fondu Podpora pro památky UNESCO. Na financování projektu se podílel žadatel o dotaci Národní památkový ústav a dále město Kroměříž. Partnerem projektu je Poradenské centrum pro sluchově postižené Kroměříž. Do znakového jazyka tlumočila Monika Augustinová. Videonahrávky vytvořilo Studio Velehrad z Olomouce. Grafické a programátorské práce dodalo Studio 6.15 ze Zlína. Tvůrcem projektu je Metodické centrum zahradní kultury.",
 			"Autoři fotografií: archiv Muzea umění Olomouc, M. Bradová, F. Fojtík, E. Horáková, P. Hudec, L. Křesadlová, M. Loučka, J. Obšivač, L. Psotová, J. Rusek."
 		],
-		"images": [
-			{
-				"src": "img/info/about/temp.jpg",
-				"caption": ""
-			},
-			{
-				"src": "img/info/about/temp.jpg",
-				"caption": ""
-			},
-			{
-				"src": "img/info/about/temp.jpg",
-				"caption": ""
-			},
-			{
-				"src": "img/info/about/temp.jpg",
-				"caption": ""
-			},
-			{
-				"src": "img/info/about/temp.jpg",
-				"caption": ""
-			},
-			{
-				"src": "img/info/about/temp.jpg",
-				"caption": ""
-			},
-			{
-				"src": "img/info/about/temp.jpg",
-				"caption": ""
-			}
+		"logos": [
+			"img/info/about/logolink.gif"
 		]
 	}
 

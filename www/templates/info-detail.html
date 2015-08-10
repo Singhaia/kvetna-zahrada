@@ -12,13 +12,16 @@
 	<ion-content>
 		<h2>{{info.name}}</h2>
 		
-		<div class="media">
+		<div class="media" ng-if="info.images">
             <a ng-click="showModal('info')"><span class="azz-photo"></span></a>
         </div>
 		
 		<div class="text">
 			<p ng-repeat="paragraph in info.body">{{paragraph}}</p>
 		</div>
-	
+		
+		<div class="logos" ng-if="info.logos">
+			<img ng-repeat="logo in info.logos" ng-src="{{logo}}" />
+		</div>
 	</ion-content>
 </div>
