@@ -4,11 +4,11 @@
 		"url": "arcibiskup",
 		"name": "Arcibiskup",
 		"body": [
-			"Arcibiskup je označení biskupa se zvláštním postavením. Podléhají mu další biskupové. Například olomoucké arcibiskupství je dnes nadřazeno biskupství brněnskému a ostravskému."
+			"Arcibiskup je označení biskupa, který má vyšší postavení. Například olomoucké arcibiskupství je dnes nadřazeno biskupství brněnskému a ostravskému."
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/01.jpg",
+				"src": "img/info/dictionary/arcibiskup.jpg",
 				"caption": "Arcibiskup"
 			}
 		]
@@ -22,22 +22,8 @@
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/02.jpg",
+				"src": "img/info/dictionary/arkada.jpg",
 				"caption": "Arkáda"
-			}
-		]
-	},
-	
-	{
-		"url": "biskup",
-		"name": "Biskup",
-		"body": [
-			"Biskup je správcem a ochráncem křesťanů na svěřeném území. Stojí včele biskupství. Jeho autorita se vztahuje k významu apoštolů Ježíše Krista."
-		],
-		"image": [
-			{
-				"src": "img/info/dictionary/03.jpg",
-				"caption": "Biskup"
 			}
 		]
 	},
@@ -46,11 +32,11 @@
 		"url": "bosket",
 		"name": "Bosket",
 		"body": [
-			"Bosket je skupina hustě vysázených, geometricky vytvarovaných stromů."
+			"Bosket je skupina hustě vysázených, geometricky vytvarovaných stromů, ze kterých je vytvořen zahradní pokoj."
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/04.jpg",
+				"src": "img/info/dictionary/bosket.jpg",
 				"caption": "Bosket"
 			}
 		]
@@ -64,7 +50,7 @@
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/05.jpg",
+				"src": "img/info/dictionary/broderie.jpg",
 				"caption": "Broderie"
 			}
 		]
@@ -78,8 +64,22 @@
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/06.jpg",
+				"src": "img/info/dictionary/buxus.jpg",
 				"caption": "Buxus"
+			}
+		]
+	},
+	
+	{
+		"url": "figury",
+		"name": "Figury",
+		"body": [
+			"V zahradním umění jsou tak nazývány jednotlivé keře stříhané do geometrických tvarů."
+		],
+		"image": [
+			{
+				"src": "img/info/dictionary/figura.jpg",
+				"caption": "Figury"
 			}
 		]
 	},
@@ -88,11 +88,11 @@
 		"url": "kolonada",
 		"name": "Kolonáda",
 		"body": [
-			"Kolonáda je krytá chodba z jedné nebo dvou stran tvořená sloupy. V Květné zahradě je tak označována stavba, která v zahradě nahrazuje budovu zámku."
+			"Kolonáda je krytá chodba z jedné nebo dvou stran tvořená sloupy. V Květné zahradě je tak ne zcela přesně označována stavba, která v zahradě nahrazuje budovu zámku. Namísto sloupů je totiž otevřena do zahrady arkádami."
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/07.jpg",
+				"src": "img/info/dictionary/kolonada.jpg",
 				"caption": "Kolonáda"
 			}
 		]
@@ -102,11 +102,11 @@
 		"url": "kvetnice",
 		"name": "Květnice",
 		"body": [
-			"Květnice je část zahrady dělená sítí cest na boskety."
+			"Květnice je část zahrady dělená sítí cest na boskety. Je určena k pěstování okrasných záhonů."
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/08.jpg",
+				"src": "img/info/dictionary/kvetnice.jpg",
 				"caption": "Květnice"
 			}
 		]
@@ -120,8 +120,22 @@
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/09.jpg",
+				"src": "img/info/dictionary/libosad.jpg",
 				"caption": "Libosad"
+			}
+		]
+	},
+	
+	{
+		"url": "loubi",
+		"name": "Loubí",
+		"body": [
+			"Pravidelně střižené stromy, jejichž koruny se střetávají a vytváří tak tunel."
+		],
+		"image": [
+			{
+				"src": "img/info/dictionary/loubi.jpg",
+				"caption": "Loubí"
 			}
 		]
 	},
@@ -134,7 +148,7 @@
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/10.jpg",
+				"src": "img/info/dictionary/oranzerie.jpg",
 				"caption": "Oranžérie"
 			}
 		]
@@ -148,22 +162,36 @@
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/11.jpg",
+				"src": "img/info/dictionary/osa.jpg",
 				"caption": "Osa"
 			}
 		]
 	},
 	
 	{
-		"url": "parter",
-		"name": "Parter",
+		"url": "satyr",
+		"name": "Satyr",
 		"body": [
-			"Parter je plochá, rovinná část zahrady před průčelím zámku pokrytá pečlivě upravenými záhony. V Květné zahradě navazuje na kolonádu, která zde zámek nahrazuje."
+			"Satyr je vymyšlená bytost podobající se napůl člověku a napůl kozlovi."
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/12.jpg",
-				"caption": "Parter"
+				"src": "img/info/dictionary/satyr.jpg",
+				"caption": "Satyr"
+			}
+		]
+	},
+	
+	{
+		"url": "seznam-unesco",
+		"name": "Seznam UNESCO",
+		"body": [
+			"seznam památek světového kulturního a přírodního dědictví UNESCO. Na tomto seznamu se nacházejí nejrůznější budovy, hory, jezera, národní parky i celá města. Podle Úmluvy o ochraně světového kulturního a přírodního dědictví z roku 1972 jsou smluvní státy, na jejichž území se dané památky nachází, zavázány jejich ochranou."
+		],
+		"image": [
+			{
+				"src": "img/info/dictionary/unesco.jpg",
+				"caption": "Seznam UNESCO"
 			}
 		]
 	},
@@ -176,7 +204,7 @@
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/13.jpg",
+				"src": "img/info/dictionary/stepnice.jpg",
 				"caption": "Štěpnice"
 			}
 		]
@@ -186,12 +214,26 @@
 		"url": "stuk",
 		"name": "Štuk",
 		"body": [
-			"štuk je směs z jemného písku, vápna, případně sádry, která se užívá na svrchní vrstvu omítky. Umožňuje vytvářet pomocí nástrojů plastické ozdoby."
+			"štuk je směs z jemného písku, vápna, případně sádry, která se užívá na svrchní vrstvu omítky. Pomocí nástrojů umožňuje vytvářet plastické ozdoby."
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/14.jpg",
+				"src": "img/info/dictionary/stuk.jpg",
 				"caption": "Štuk"
+			}
+		]
+	},
+	
+	{
+		"url": "triton",
+		"name": "Triton",
+		"body": [
+			"Vodní bůžek."
+		],
+		"image": [
+			{
+				"src": "img/info/dictionary/triton.jpg",
+				"caption": "Triton"
 			}
 		]
 	},
@@ -200,42 +242,13 @@
 		"url": "tvarovane-steny",
 		"name": "Tvarované stěny",
 		"body": [
-			"Tvarované stěny jsou pravidelně střižené stromy, ze kterých jsou utvářeny boskety. Umocňují pohled na architekturu."
+			"Tvarované stěny jsou pravidelně střižené stromy, ze kterých jsou utvářeny boskety. Zvýrazňují pohled na stavby v zahradě."
 		],
 		"image": [
 			{
-				"src": "img/info/dictionary/15.jpg",
+				"src": "img/info/dictionary/tvarovane-steny.jpg",
 				"caption": "Tvarované stěny"
 			}
 		]
-	},
-	
-	{
-		"url": "vitraz",
-		"name": "Vitráž",
-		"body": [
-			"Vitráž je ozdobná skleněná výplň oken. Jednotlivé barevné části ze skla se vkládají do olověných rámečků."
-		],
-		"image": [
-			{
-				"src": "img/info/dictionary/16.jpg",
-				"caption": "Vitráž"
-			}
-		]
-	},
-	
-	{
-		"url": "voliera",
-		"name": "Voliéra",
-		"body": [
-			"Voliéra je prostorná klec pro chov ptáků."
-		],
-		"image": [
-			{
-				"src": "img/info/dictionary/17.jpg",
-				"caption": "Voliéra"
-			}
-		]
 	}
-
 ]

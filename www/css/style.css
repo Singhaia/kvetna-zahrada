@@ -268,7 +268,7 @@ display:block;
 .content.dic .item .image { float:left; overflow:hidden; border-radius:50%;  width:235px; height:235px; 
  padding-right:25px; margin-top:40px; margin-bottom:40px; text-align:center }
 .content.dic .item .image img { max-height:100%; margin:0; margin-left:-25% }
-.content.dic .item .text { float:right; max-width:60%; padding-left:25px;  }
+.content.dic .item .text { float:right; width:60%; padding-left:25px;  }
 .content.dic .item p {font-size:inherit; font-size:1em; white-space:normal }
 
 .content.dic .item h3 { font-size:32px; margin-top:50px; color:#278639; margin-bottom:20px}
