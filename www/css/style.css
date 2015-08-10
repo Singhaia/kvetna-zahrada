@@ -163,6 +163,7 @@ display:block;
 
 .content.detail .media a:last-child { text-indent:5px}
 .content.detail .text { max-width:640px; color:#ccc; margin:auto; font-size:20px; text-align:left; padding-bottom:80px; line-height:32px} 
+.content.detail .logos { padding-bottom:160px;}
 
 .content.detail.inf .media a:last-child { text-indent:0}
 .content.detail.inf .media a {  margin:-20px 10px 30px}
