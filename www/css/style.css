@@ -148,10 +148,10 @@ display:block;
 .content.detail { margin:0px; background:#fff; padding:50px; width:980px; }
 
 .content.detail .controls {  z-index:10000; position:absolute; width:880px; margin-top:-23px}
-.content.detail .controls  a { position:relative; font-family: 'playfair'; font-weight: normal; font-size:18px; color:#333; text-decoration:none; float:left; background-color: rgba(255,255,255,.75); border-radius:8px; padding:8px  16px 8px 8px; display:block; letter-spacing:1px; line-height:46px;}
+.content.detail .controls  a { position:relative; font-family: 'playfair'; font-weight: normal; font-size:20px; color:#333; text-decoration:none; float:left; background-color: rgba(255,255,255,.85); border-radius:8px; padding:8px  16px 8px 8px; display:inline-block; letter-spacing:1px; line-height:46px;  text-align:left; }
 
 .content.detail .controls  a span { font-size:48px; display:block; float:left; color:#278639; padding:0px 10px 0px 0px}
-.content.detail .controls  a.right { float:right}
+.content.detail .controls  a.right { float:right;  text-align:right}
 .content.detail .controls  a.right span { padding:0px 0px 0px 10px; float:right}
 
 .content.detail .section-image { border-radius:50%; width:250px; height:250px; overflow:hidden; margin:auto; margin-top:50px; margin-bottom:20px;}
@@ -231,7 +231,7 @@ display:block;
 .content.map .list .item .point{  width:50px; height:50px; border-radius:50%; line-height:45px; text-align:center; background-color:#278639; color:#FFF;  font-family: 'playfair'; font-size:32px;  }
 
 .content.map .list .item .point a  { display:none; width:160px; height:160px; border-radius:50%; background-color:#f7f7f7; color:#333; font-family: 'playfair'; font-size:21px; line-height:normal;  text-align:center; padding:10px; padding-top:45px; position:absolute;  top:-138px; left:-39px; white-space:normal }
-.content.map .list .item .point:hover a, .content.map .list .item .point:focus  { display:block; }
+.content.map .list .item .point:hover a, .content.map .list .item .point:focus  a { display:block; }
 
 .content.map .list .item .point a span { display:block; color:#278639; font-family: 'azz-app'; font-size:58px; position:absolute; left:50px; top:75px  }
 
